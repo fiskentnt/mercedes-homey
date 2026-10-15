@@ -3,7 +3,8 @@
   "title": {
     "en": "Charger was connected",
     "nl": "Lader is aangesloten",
-    "de": "Ladegerät wurde angeschlossen"
+    "de": "Ladegerät wurde angeschlossen",
+    "no": "Ladekabel ble koblet til"
   },
   "args": [
     {

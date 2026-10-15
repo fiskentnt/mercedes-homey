@@ -3,7 +3,8 @@
   "title": {
     "en": "Heading",
     "nl": "Richting",
-    "de": "Kurs"
+    "de": "Kurs",
+    "no": "Kjøreretning"
   },
   "units": {
     "en": "°"

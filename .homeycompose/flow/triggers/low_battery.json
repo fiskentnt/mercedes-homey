@@ -3,7 +3,8 @@
   "title": {
     "en": "Battery is low",
     "nl": "Batterij is laag",
-    "de": "Batterie ist niedrig"
+    "de": "Batterie ist niedrig",
+    "no": "Lavt batterinivå"
   },
   "args": [
     {
@@ -19,7 +20,8 @@
       "title": {
         "en": "Battery level",
         "nl": "Batterijniveau",
-        "de": "Batteriestand"
+        "de": "Batteriestand",
+        "no": "Batterinivå"
       },
       "example": 15
     }

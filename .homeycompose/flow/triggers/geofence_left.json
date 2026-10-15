@@ -3,7 +3,8 @@
   "title": {
     "en": "Vehicle left geofence zone",
     "nl": "Voertuig heeft geofence zone verlaten",
-    "de": "Fahrzeug hat Geofence-Zone verlassen"
+    "de": "Fahrzeug hat Geofence-Zone verlassen",
+    "no": "Bilen forlot en sone"
   },
   "args": [
     {
@@ -19,7 +20,8 @@
       "title": {
         "en": "Zone name",
         "nl": "Zone naam",
-        "de": "Zonenname"
+        "de": "Zonenname",
+        "no": "Sonenavn"
       },
       "example": "Home"
     }

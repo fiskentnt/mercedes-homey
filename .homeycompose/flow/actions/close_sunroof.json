@@ -2,17 +2,20 @@
   "title": {
     "en": "Close sunroof",
     "nl": "Sluit schuifdak",
-    "de": "Schiebedach schließen"
+    "de": "Schiebedach schließen",
+    "no": "Lukk soltaket"
   },
   "titleFormatted": {
     "en": "Close the sunroof",
     "nl": "Sluit het schuifdak",
-    "de": "Schiebedach schließen"
+    "de": "Schiebedach schließen",
+    "no": "Lukk soltaket"
   },
   "hint": {
     "en": "Closes the sunroof.",
     "nl": "Sluit het schuifdak.",
-    "de": "Schließt das Schiebedach."
+    "de": "Schließt das Schiebedach.",
+    "no": "Lukker soltaket."
   },
   "args": [
     {

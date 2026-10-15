@@ -3,7 +3,8 @@
   "title": {
     "en": "Trunk",
     "nl": "Kofferbak",
-    "de": "Kofferraum"
+    "de": "Kofferraum",
+    "no": "Bagasjerom"
   },
   "getable": true,
   "setable": false,

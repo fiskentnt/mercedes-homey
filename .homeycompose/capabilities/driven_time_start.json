@@ -3,7 +3,8 @@
   "title": {
     "en": "Driving Time",
     "nl": "Rijtijd",
-    "de": "Fahrzeit"
+    "de": "Fahrzeit",
+    "no": "Kjøretid fra start"
   },
   "units": {
     "en": "min"

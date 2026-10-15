@@ -3,7 +3,8 @@
   "title": {
     "en": "Last Geofence Event",
     "nl": "Laatste Geofence Event",
-    "de": "Letztes Geofence Ereignis"
+    "de": "Letztes Geofence Ereignis",
+    "no": "Siste sonehendelse"
   },
   "getable": true,
   "setable": false,

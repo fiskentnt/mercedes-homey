@@ -3,7 +3,8 @@
   "title": {
     "en": "Engine was started",
     "nl": "Motor is gestart",
-    "de": "Motor wurde gestartet"
+    "de": "Motor wurde gestartet",
+    "no": "Motor startet"
   },
   "args": [
     {

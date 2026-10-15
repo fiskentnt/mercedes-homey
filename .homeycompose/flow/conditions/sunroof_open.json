@@ -3,17 +3,20 @@
   "title": {
     "en": "Sunroof is !{{open|closed}}",
     "nl": "Schuifdak is !{{open|gesloten}}",
-    "de": "Schiebedach ist !{{offen|geschlossen}}"
+    "de": "Schiebedach ist !{{offen|geschlossen}}",
+    "no": "Soltaket er !{{åpent|lukket}}"
   },
   "titleFormatted": {
     "en": "Sunroof is !{{open|closed}}",
     "nl": "Schuifdak is !{{open|gesloten}}",
-    "de": "Schiebedach ist !{{offen|geschlossen}}"
+    "de": "Schiebedach ist !{{offen|geschlossen}}",
+    "no": "Soltaket er !{{åpent|lukket}}"
   },
   "hint": {
     "en": "This card checks if the sunroof is open or tilted.",
     "nl": "Deze kaart controleert of het schuifdak open of gekanteld is.",
-    "de": "Diese Karte prüft, ob das Schiebedach offen oder gekippt ist."
+    "de": "Diese Karte prüft, ob das Schiebedach offen oder gekippt ist.",
+    "no": "Sjekker om soltaket er åpent eller vippet."
   },
   "args": [
     {

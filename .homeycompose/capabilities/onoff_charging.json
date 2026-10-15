@@ -3,7 +3,8 @@
   "title": {
     "en": "Charging",
     "nl": "Opladen",
-    "de": "Laden"
+    "de": "Laden",
+    "no": "Lading"
   },
   "getable": true,
   "setable": true,

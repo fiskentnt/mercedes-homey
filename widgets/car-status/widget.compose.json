@@ -2,7 +2,8 @@
   "name": {
     "en": "Car Status",
     "nl": "Auto Status",
-    "de": "Fahrzeugstatus"
+    "de": "Fahrzeugstatus",
+    "no": "Bilstatus"
   },
   "height": 160,
   "devices": {

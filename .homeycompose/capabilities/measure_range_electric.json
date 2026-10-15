@@ -3,12 +3,14 @@
   "title": {
     "en": "Electric Range",
     "nl": "Elektrisch Bereik",
-    "de": "Elektrische Reichweite"
+    "de": "Elektrische Reichweite",
+    "no": "Rekkevidde (el)"
   },
   "label": {
     "en": "Range (EV)",
     "nl": "Bereik (EV)",
-    "de": "Reichweite (EV)"
+    "de": "Reichweite (EV)",
+    "no": "Rekkevidde (el)"
   },
   "units": {
     "en": "km"

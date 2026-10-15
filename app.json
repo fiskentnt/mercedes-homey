@@ -10,12 +10,14 @@
   "name": {
     "en": "Mercedes-Benz",
     "nl": "Mercedes-Benz",
-    "de": "Mercedes-Benz"
+    "de": "Mercedes-Benz",
+    "no": "Mercedes-Benz"
   },
   "description": {
     "en": "Stay connected to your Mercedes-Benz, wherever you are",
     "nl": "Blijf verbonden met je Mercedes-Benz, waar je ook bent",
-    "de": "Bleiben Sie mit Ihrem Mercedes-Benz verbunden, wo auch immer Sie sind"
+    "de": "Bleiben Sie mit Ihrem Mercedes-Benz verbunden, wo auch immer Sie sind",
+    "no": "Hold kontakten med din Mercedes-Benz, uansett hvor du er"
   },
   "category": [
     "appliances"
@@ -25,7 +27,8 @@
       "name": {
         "en": "Car Status",
         "nl": "Auto Status",
-        "de": "Fahrzeugstatus"
+        "de": "Fahrzeugstatus",
+        "no": "Bilstatus"
       },
       "height": 160,
       "devices": {
@@ -129,7 +132,8 @@
         "title": {
           "en": "Charging completed",
           "nl": "Opladen voltooid",
-          "de": "Laden abgeschlossen"
+          "de": "Laden abgeschlossen",
+          "no": "Lading fullført"
         },
         "args": [
           {
@@ -145,7 +149,8 @@
             "title": {
               "en": "Battery level",
               "nl": "Batterijniveau",
-              "de": "Batteriestand"
+              "de": "Batteriestand",
+              "no": "Batterinivå"
             },
             "example": 100
           }
@@ -156,7 +161,8 @@
         "title": {
           "en": "Charging started",
           "nl": "Opladen gestart",
-          "de": "Laden gestartet"
+          "de": "Laden gestartet",
+          "no": "Lading startet"
         },
         "args": [
           {
@@ -172,7 +178,8 @@
             "title": {
               "en": "Charging power",
               "nl": "Laadvermogen",
-              "de": "Ladeleistung"
+              "de": "Ladeleistung",
+              "no": "Ladeeffekt"
             },
             "example": 11
           }
@@ -183,7 +190,8 @@
         "title": {
           "en": "Charging stopped",
           "nl": "Opladen gestopt",
-          "de": "Laden gestoppt"
+          "de": "Laden gestoppt",
+          "no": "Lading stoppet"
         },
         "args": [
           {
@@ -198,12 +206,14 @@
         "title": {
           "en": "Vehicle command failed",
           "nl": "Voertuigopdracht mislukt",
-          "de": "Fahrzeugbefehl fehlgeschlagen"
+          "de": "Fahrzeugbefehl fehlgeschlagen",
+          "no": "Bilen utførte ikke en kommando"
         },
         "hint": {
           "en": "Triggers when the car reports that a command did not complete. Mercedes confirms this about 12 seconds after the command is sent, which is after the action card has already finished, so this is how a late failure becomes visible.",
           "nl": "Wordt geactiveerd wanneer de auto meldt dat een opdracht niet is voltooid. Mercedes bevestigt dit ongeveer 12 seconden na verzending, nadat de actiekaart al klaar is.",
-          "de": "Wird ausgelöst, wenn das Fahrzeug meldet, dass ein Befehl nicht ausgeführt wurde. Mercedes bestätigt dies etwa 12 Sekunden nach dem Senden, also nachdem die Aktionskarte bereits beendet ist."
+          "de": "Wird ausgelöst, wenn das Fahrzeug meldet, dass ein Befehl nicht ausgeführt wurde. Mercedes bestätigt dies etwa 12 Sekunden nach dem Senden, also nachdem die Aktionskarte bereits beendet ist.",
+          "no": "Utløses når bilen melder at en kommando ikke ble fullført. Mercedes bekrefter dette omtrent 12 sekunder etter at kommandoen er sendt, altså etter at handlingskortet allerede er ferdig. Det er slik en sen feil blir synlig."
         },
         "args": [
           {
@@ -219,7 +229,8 @@
             "title": {
               "en": "Command",
               "nl": "Opdracht",
-              "de": "Befehl"
+              "de": "Befehl",
+              "no": "Kommando"
             },
             "example": "windowsClose"
           },
@@ -229,7 +240,8 @@
             "title": {
               "en": "Reason",
               "nl": "Reden",
-              "de": "Grund"
+              "de": "Grund",
+              "no": "Årsak"
             },
             "example": "CMD_TIMEOUT"
           }
@@ -240,7 +252,8 @@
         "title": {
           "en": "Charger was connected",
           "nl": "Lader is aangesloten",
-          "de": "Ladegerät wurde angeschlossen"
+          "de": "Ladegerät wurde angeschlossen",
+          "no": "Ladekabel ble koblet til"
         },
         "args": [
           {
@@ -255,7 +268,8 @@
         "title": {
           "en": "Charger was disconnected",
           "nl": "Lader is losgekoppeld",
-          "de": "Ladegerät wurde getrennt"
+          "de": "Ladegerät wurde getrennt",
+          "no": "Ladekabel ble koblet fra"
         },
         "args": [
           {
@@ -270,7 +284,8 @@
         "title": {
           "en": "A door was closed",
           "nl": "Een deur is gesloten",
-          "de": "Eine Tür wurde geschlossen"
+          "de": "Eine Tür wurde geschlossen",
+          "no": "En dør ble lukket"
         },
         "args": [
           {
@@ -286,7 +301,8 @@
             "title": {
               "en": "Door",
               "nl": "Deur",
-              "de": "Tür"
+              "de": "Tür",
+              "no": "Dør"
             },
             "example": "front_left"
           }
@@ -297,7 +313,8 @@
         "title": {
           "en": "A door was opened",
           "nl": "Een deur is geopend",
-          "de": "Eine Tür wurde geöffnet"
+          "de": "Eine Tür wurde geöffnet",
+          "no": "En dør ble åpnet"
         },
         "args": [
           {
@@ -313,7 +330,8 @@
             "title": {
               "en": "Door",
               "nl": "Deur",
-              "de": "Tür"
+              "de": "Tür",
+              "no": "Dør"
             },
             "example": "front_left"
           }
@@ -324,7 +342,8 @@
         "title": {
           "en": "Engine was started",
           "nl": "Motor is gestart",
-          "de": "Motor wurde gestartet"
+          "de": "Motor wurde gestartet",
+          "no": "Motor startet"
         },
         "args": [
           {
@@ -339,7 +358,8 @@
         "title": {
           "en": "Engine was stopped",
           "nl": "Motor is gestopt",
-          "de": "Motor wurde gestoppt"
+          "de": "Motor wurde gestoppt",
+          "no": "Motor stoppet"
         },
         "args": [
           {
@@ -354,7 +374,8 @@
         "title": {
           "en": "Vehicle entered geofence zone",
           "nl": "Voertuig heeft geofence zone betreden",
-          "de": "Fahrzeug hat Geofence-Zone betreten"
+          "de": "Fahrzeug hat Geofence-Zone betreten",
+          "no": "Bilen kjørte inn i en sone"
         },
         "args": [
           {
@@ -370,7 +391,8 @@
             "title": {
               "en": "Zone name",
               "nl": "Zone naam",
-              "de": "Zonenname"
+              "de": "Zonenname",
+              "no": "Sonenavn"
             },
             "example": "Home"
           }
@@ -381,7 +403,8 @@
         "title": {
           "en": "Vehicle left geofence zone",
           "nl": "Voertuig heeft geofence zone verlaten",
-          "de": "Fahrzeug hat Geofence-Zone verlassen"
+          "de": "Fahrzeug hat Geofence-Zone verlassen",
+          "no": "Bilen forlot en sone"
         },
         "args": [
           {
@@ -397,7 +420,8 @@
             "title": {
               "en": "Zone name",
               "nl": "Zone naam",
-              "de": "Zonenname"
+              "de": "Zonenname",
+              "no": "Sonenavn"
             },
             "example": "Home"
           }
@@ -408,7 +432,8 @@
         "title": {
           "en": "Battery is low",
           "nl": "Batterij is laag",
-          "de": "Batterie ist niedrig"
+          "de": "Batterie ist niedrig",
+          "no": "Lavt batterinivå"
         },
         "args": [
           {
@@ -424,7 +449,8 @@
             "title": {
               "en": "Battery level",
               "nl": "Batterijniveau",
-              "de": "Batteriestand"
+              "de": "Batteriestand",
+              "no": "Batterinivå"
             },
             "example": 15
           }
@@ -435,7 +461,8 @@
         "title": {
           "en": "Vehicle alarm triggered",
           "nl": "Voertuigalarm geactiveerd",
-          "de": "Fahrzeugalarm ausgelöst"
+          "de": "Fahrzeugalarm ausgelöst",
+          "no": "Tyverialarm utløst"
         },
         "args": [
           {
@@ -451,7 +478,8 @@
             "title": {
               "en": "Reason",
               "nl": "Reden",
-              "de": "Grund"
+              "de": "Grund",
+              "no": "Årsak"
             },
             "example": "DOOR_FRONT_LEFT"
           }
@@ -463,7 +491,8 @@
         "title": {
           "en": "Vehicle was locked",
           "nl": "Voertuig is vergrendeld",
-          "de": "Fahrzeug wurde verriegelt"
+          "de": "Fahrzeug wurde verriegelt",
+          "no": "Bilen ble låst"
         },
         "args": [
           {
@@ -479,7 +508,8 @@
         "title": {
           "en": "Vehicle was unlocked",
           "nl": "Voertuig is ontgrendeld",
-          "de": "Fahrzeug wurde entriegelt"
+          "de": "Fahrzeug wurde entriegelt",
+          "no": "Bilen ble låst opp"
         },
         "args": [
           {
@@ -494,7 +524,8 @@
         "title": {
           "en": "Warning light activated",
           "nl": "Waarschuwingslampje geactiveerd",
-          "de": "Warnleuchte aktiviert"
+          "de": "Warnleuchte aktiviert",
+          "no": "Varsellampe tent"
         },
         "args": [
           {
@@ -509,7 +540,8 @@
         "title": {
           "en": "A window was closed",
           "nl": "Een raam is gesloten",
-          "de": "Ein Fenster wurde geschlossen"
+          "de": "Ein Fenster wurde geschlossen",
+          "no": "Et vindu ble lukket"
         },
         "args": [
           {
@@ -525,7 +557,8 @@
             "title": {
               "en": "Window",
               "nl": "Raam",
-              "de": "Fenster"
+              "de": "Fenster",
+              "no": "Vindu"
             },
             "example": "front_left"
           }
@@ -536,7 +569,8 @@
         "title": {
           "en": "A window was opened",
           "nl": "Een raam is geopend",
-          "de": "Ein Fenster wurde geöffnet"
+          "de": "Ein Fenster wurde geöffnet",
+          "no": "Et vindu ble åpnet"
         },
         "args": [
           {
@@ -552,7 +586,8 @@
             "title": {
               "en": "Window",
               "nl": "Raam",
-              "de": "Fenster"
+              "de": "Fenster",
+              "no": "Vindu"
             },
             "example": "front_left"
           }
@@ -565,17 +600,20 @@
         "title": {
           "en": "Any door is !{{open|closed}}",
           "nl": "Een deur is !{{open|gesloten}}",
-          "de": "Eine Tür ist !{{offen|geschlossen}}"
+          "de": "Eine Tür ist !{{offen|geschlossen}}",
+          "no": "!{{En dør er åpen|Alle dører er lukket}}"
         },
         "titleFormatted": {
           "en": "Any door is !{{open|closed}}",
           "nl": "Een deur is !{{open|gesloten}}",
-          "de": "Eine Tür ist !{{offen|geschlossen}}"
+          "de": "Eine Tür ist !{{offen|geschlossen}}",
+          "no": "!{{En dør er åpen|Alle dører er lukket}}"
         },
         "hint": {
           "en": "This card checks if any door (including trunk and hood) is open.",
           "nl": "Deze kaart controleert of een deur (inclusief kofferbak en motorkap) open is.",
-          "de": "Diese Karte prüft, ob eine Tür (einschließlich Kofferraum und Motorhaube) geöffnet ist."
+          "de": "Diese Karte prüft, ob eine Tür (einschließlich Kofferraum und Motorhaube) geöffnet ist.",
+          "no": "Sjekker om en dør er åpen, også bagasjerom og motorpanser."
         },
         "args": [
           {
@@ -591,17 +629,20 @@
         "title": {
           "en": "Battery level !{{is above|is below}} ...",
           "nl": "Batterijniveau !{{is boven|is onder}} ...",
-          "de": "Batteriestand !{{ist über|ist unter}} ..."
+          "de": "Batteriestand !{{ist über|ist unter}} ...",
+          "no": "Batterinivå !{{er over|er under}} ..."
         },
         "titleFormatted": {
           "en": "Battery level !{{is above|is below}} [[threshold]]%",
           "nl": "Batterijniveau !{{is boven|is onder}} [[threshold]]%",
-          "de": "Batteriestand !{{ist über|ist unter}} [[threshold]]%"
+          "de": "Batteriestand !{{ist über|ist unter}} [[threshold]]%",
+          "no": "Batterinivå !{{er over|er under}} [[threshold]] %"
         },
         "hint": {
           "en": "This card checks if the battery level is above or below a specified percentage.",
           "nl": "Deze kaart controleert of het batterijniveau boven of onder een opgegeven percentage is.",
-          "de": "Diese Karte prüft, ob der Batteriestand über oder unter einem bestimmten Prozentsatz liegt."
+          "de": "Diese Karte prüft, ob der Batteriestand über oder unter einem bestimmten Prozentsatz liegt.",
+          "no": "Sjekker om batterinivået er over eller under en gitt prosent."
         },
         "args": [
           {
@@ -615,7 +656,8 @@
             "title": {
               "en": "Threshold %",
               "nl": "Drempel %",
-              "de": "Schwellenwert %"
+              "de": "Schwellenwert %",
+              "no": "Grense %"
             },
             "min": 0,
             "max": 100,
@@ -629,12 +671,14 @@
         "title": {
           "en": "Auxiliary heating !{{is|is not}} active",
           "nl": "Standverwarming !{{is|is niet}} actief",
-          "de": "Standheizung !{{ist|ist nicht}} aktiv"
+          "de": "Standheizung !{{ist|ist nicht}} aktiv",
+          "no": "Parkeringsvarmer !{{er på|er av}}"
         },
         "hint": {
           "en": "This card checks if auxiliary heating is currently active.",
           "nl": "Deze kaart controleert of de standverwarming momenteel actief is.",
-          "de": "Diese Karte prüft, ob die Standheizung gerade aktiv ist."
+          "de": "Diese Karte prüft, ob die Standheizung gerade aktiv ist.",
+          "no": "Sjekker om parkeringsvarmeren er på."
         },
         "args": [
           {
@@ -650,17 +694,20 @@
         "title": {
           "en": "Vehicle is !{{charging|not charging}}",
           "nl": "Voertuig is !{{aan het opladen|niet aan het opladen}}",
-          "de": "Fahrzeug !{{lädt|lädt nicht}}"
+          "de": "Fahrzeug !{{lädt|lädt nicht}}",
+          "no": "Bilen !{{lader|lader ikke}}"
         },
         "titleFormatted": {
           "en": "Vehicle is !{{charging|not charging}}",
           "nl": "Voertuig is !{{aan het opladen|niet aan het opladen}}",
-          "de": "Fahrzeug !{{lädt|lädt nicht}}"
+          "de": "Fahrzeug !{{lädt|lädt nicht}}",
+          "no": "Bilen !{{lader|lader ikke}}"
         },
         "hint": {
           "en": "This card checks if the vehicle is currently charging.",
           "nl": "Deze kaart controleert of het voertuig momenteel aan het opladen is.",
-          "de": "Diese Karte prüft, ob das Fahrzeug gerade lädt."
+          "de": "Diese Karte prüft, ob das Fahrzeug gerade lädt.",
+          "no": "Sjekker om bilen lader."
         },
         "args": [
           {
@@ -676,15 +723,18 @@
         "title": {
           "en": "Connector is !{{connected|not connected}}",
           "nl": "Connector is !{{aangesloten|niet aangesloten}}",
-          "de": "Stecker ist !{{verbunden|nicht verbunden}}"
+          "de": "Stecker ist !{{verbunden|nicht verbunden}}",
+          "no": "Ladekabel !{{er tilkoblet|er ikke tilkoblet}}"
         },
         "titleFormatted": {
           "en": "Connector is !{{connected|not connected}}",
           "nl": "Connector is !{{aangesloten|niet aangesloten}}",
-          "de": "Stecker ist !{{verbunden|nicht verbunden}}"
+          "de": "Stecker ist !{{verbunden|nicht verbunden}}",
+          "no": "Ladekabel !{{er tilkoblet|er ikke tilkoblet}}"
         },
         "hint": {
-          "en": "Checks if the charge connector is currently plugged in."
+          "en": "Checks if the charge connector is currently plugged in.",
+          "no": "Sjekker om ladekabelen er koblet til."
         },
         "args": [
           {
@@ -700,17 +750,20 @@
         "title": {
           "en": "Engine is !{{running|stopped}}",
           "nl": "Motor is !{{aan|uit}}",
-          "de": "Motor ist !{{an|aus}}"
+          "de": "Motor ist !{{an|aus}}",
+          "no": "Motor !{{på|av}}"
         },
         "titleFormatted": {
           "en": "Engine is !{{running|stopped}}",
           "nl": "Motor is !{{aan|uit}}",
-          "de": "Motor ist !{{an|aus}}"
+          "de": "Motor ist !{{an|aus}}",
+          "no": "Motor !{{på|av}}"
         },
         "hint": {
           "en": "This card checks if the vehicle engine is running.",
           "nl": "Deze kaart controleert of de motor van het voertuig draait.",
-          "de": "Diese Karte prüft, ob der Fahrzeugmotor läuft."
+          "de": "Diese Karte prüft, ob der Fahrzeugmotor läuft.",
+          "no": "Sjekker om motoren er på."
         },
         "args": [
           {
@@ -726,17 +779,20 @@
         "title": {
           "en": "Vehicle !{{is|is not}} in geofence zone ...",
           "nl": "Voertuig !{{is|is niet}} in geofence zone ...",
-          "de": "Fahrzeug !{{ist|ist nicht}} in Geofence-Zone ..."
+          "de": "Fahrzeug !{{ist|ist nicht}} in Geofence-Zone ...",
+          "no": "Bilen !{{er|er ikke}} i sone ..."
         },
         "titleFormatted": {
           "en": "Vehicle !{{is|is not}} in geofence zone [[zone_name]]",
           "nl": "Voertuig !{{is|is niet}} in geofence zone [[zone_name]]",
-          "de": "Fahrzeug !{{ist|ist nicht}} in Geofence-Zone [[zone_name]]"
+          "de": "Fahrzeug !{{ist|ist nicht}} in Geofence-Zone [[zone_name]]",
+          "no": "Bilen !{{er|er ikke}} i sone [[zone_name]]"
         },
         "hint": {
           "en": "This card checks if the vehicle is currently inside a specified geofence zone.",
           "nl": "Deze kaart controleert of het voertuig zich momenteel in een opgegeven geofence zone bevindt.",
-          "de": "Diese Karte prüft, ob das Fahrzeug sich gerade in einer bestimmten Geofence-Zone befindet."
+          "de": "Diese Karte prüft, ob das Fahrzeug sich gerade in einer bestimmten Geofence-Zone befindet.",
+          "no": "Sjekker om bilen er innenfor en gitt sone."
         },
         "args": [
           {
@@ -750,12 +806,14 @@
             "title": {
               "en": "Zone name",
               "nl": "Zone naam",
-              "de": "Zonenname"
+              "de": "Zonenname",
+              "no": "Sonenavn"
             },
             "placeholder": {
               "en": "Home",
               "nl": "Thuis",
-              "de": "Zuhause"
+              "de": "Zuhause",
+              "no": "Hjem"
             }
           }
         ],
@@ -766,17 +824,20 @@
         "title": {
           "en": "Vehicle is !{{locked|unlocked}}",
           "nl": "Voertuig is !{{vergrendeld|ontgrendeld}}",
-          "de": "Fahrzeug ist !{{verriegelt|entriegelt}}"
+          "de": "Fahrzeug ist !{{verriegelt|entriegelt}}",
+          "no": "Bilen er !{{låst|ulåst}}"
         },
         "titleFormatted": {
           "en": "Vehicle is !{{locked|unlocked}}",
           "nl": "Voertuig is !{{vergrendeld|ontgrendeld}}",
-          "de": "Fahrzeug ist !{{verriegelt|entriegelt}}"
+          "de": "Fahrzeug ist !{{verriegelt|entriegelt}}",
+          "no": "Bilen er !{{låst|ulåst}}"
         },
         "hint": {
           "en": "This card checks if the vehicle doors are locked.",
           "nl": "Deze kaart controleert of de voertuigdeuren vergrendeld zijn.",
-          "de": "Diese Karte prüft, ob die Fahrzeugtüren verriegelt sind."
+          "de": "Diese Karte prüft, ob die Fahrzeugtüren verriegelt sind.",
+          "no": "Sjekker om bilen er låst."
         },
         "args": [
           {
@@ -792,17 +853,20 @@
         "title": {
           "en": "Preconditioning is !{{active|inactive}}",
           "nl": "Voorconditionering is !{{actief|inactief}}",
-          "de": "Vorklimatisierung ist !{{aktiv|inaktiv}}"
+          "de": "Vorklimatisierung ist !{{aktiv|inaktiv}}",
+          "no": "Forvarming !{{på|av}}"
         },
         "titleFormatted": {
           "en": "Preconditioning is !{{active|inactive}}",
           "nl": "Voorconditionering is !{{actief|inactief}}",
-          "de": "Vorklimatisierung ist !{{aktiv|inaktiv}}"
+          "de": "Vorklimatisierung ist !{{aktiv|inaktiv}}",
+          "no": "Forvarming !{{på|av}}"
         },
         "hint": {
           "en": "This card checks if the vehicle's preconditioning/climate control is currently active.",
           "nl": "Deze kaart controleert of de voorconditionering/klimaatregeling van het voertuig momenteel actief is.",
-          "de": "Diese Karte prüft, ob die Vorklimatisierung des Fahrzeugs gerade aktiv ist."
+          "de": "Diese Karte prüft, ob die Vorklimatisierung des Fahrzeugs gerade aktiv ist.",
+          "no": "Sjekker om forvarming eller klimaregulering er på."
         },
         "args": [
           {
@@ -818,17 +882,20 @@
         "title": {
           "en": "Sunroof is !{{open|closed}}",
           "nl": "Schuifdak is !{{open|gesloten}}",
-          "de": "Schiebedach ist !{{offen|geschlossen}}"
+          "de": "Schiebedach ist !{{offen|geschlossen}}",
+          "no": "Soltaket er !{{åpent|lukket}}"
         },
         "titleFormatted": {
           "en": "Sunroof is !{{open|closed}}",
           "nl": "Schuifdak is !{{open|gesloten}}",
-          "de": "Schiebedach ist !{{offen|geschlossen}}"
+          "de": "Schiebedach ist !{{offen|geschlossen}}",
+          "no": "Soltaket er !{{åpent|lukket}}"
         },
         "hint": {
           "en": "This card checks if the sunroof is open or tilted.",
           "nl": "Deze kaart controleert of het schuifdak open of gekanteld is.",
-          "de": "Diese Karte prüft, ob das Schiebedach offen oder gekippt ist."
+          "de": "Diese Karte prüft, ob das Schiebedach offen oder gekippt ist.",
+          "no": "Sjekker om soltaket er åpent eller vippet."
         },
         "args": [
           {
@@ -844,17 +911,20 @@
         "title": {
           "en": "Tire pressure is !{{OK|too low}}",
           "nl": "Bandenspanning is !{{OK|te laag}}",
-          "de": "Reifendruck ist !{{OK|zu niedrig}}"
+          "de": "Reifendruck ist !{{OK|zu niedrig}}",
+          "no": "Dekktrykket er !{{OK|for lavt}}"
         },
         "titleFormatted": {
           "en": "Tire pressure is !{{OK|too low}}",
           "nl": "Bandenspanning is !{{OK|te laag}}",
-          "de": "Reifendruck ist !{{OK|zu niedrig}}"
+          "de": "Reifendruck ist !{{OK|zu niedrig}}",
+          "no": "Dekktrykket er !{{OK|for lavt}}"
         },
         "hint": {
           "en": "This card checks if all tire pressures are within acceptable range (>= 2.0 bar).",
           "nl": "Deze kaart controleert of alle bandenspanningen binnen het acceptabele bereik liggen (>= 2.0 bar).",
-          "de": "Diese Karte prüft, ob alle Reifendrücke im akzeptablen Bereich liegen (>= 2.0 bar)."
+          "de": "Diese Karte prüft, ob alle Reifendrücke im akzeptablen Bereich liegen (>= 2.0 bar).",
+          "no": "Sjekker om dekktrykket er innenfor godkjent område på alle hjul (minst 2,0 bar)."
         },
         "args": [
           {
@@ -870,17 +940,20 @@
         "title": {
           "en": "Warning light is !{{active|inactive}}",
           "nl": "Waarschuwingslampje is !{{actief|inactief}}",
-          "de": "Warnleuchte ist !{{aktiv|inaktiv}}"
+          "de": "Warnleuchte ist !{{aktiv|inaktiv}}",
+          "no": "Varsellampe !{{lyser|lyser ikke}}"
         },
         "titleFormatted": {
           "en": "Warning light is !{{active|inactive}}",
           "nl": "Waarschuwingslampje is !{{actief|inactief}}",
-          "de": "Warnleuchte ist !{{aktiv|inaktiv}}"
+          "de": "Warnleuchte ist !{{aktiv|inaktiv}}",
+          "no": "Varsellampe !{{lyser|lyser ikke}}"
         },
         "hint": {
           "en": "This card checks if any warning light (washer fluid, coolant, brake fluid, engine) is active.",
           "nl": "Deze kaart controleert of een waarschuwingslampje (ruitenwisservloeistof, koelvloeistof, remvloeistof, motor) actief is.",
-          "de": "Diese Karte prüft, ob eine Warnleuchte (Wischwasser, Kühlmittel, Bremsflüssigkeit, Motor) aktiv ist."
+          "de": "Diese Karte prüft, ob eine Warnleuchte (Wischwasser, Kühlmittel, Bremsflüssigkeit, Motor) aktiv ist.",
+          "no": "Sjekker om en varsellampe lyser (spylervæske, kjølevæske, bremsevæske, motor)."
         },
         "args": [
           {
@@ -896,17 +969,20 @@
         "title": {
           "en": "All windows are !{{closed|open}}",
           "nl": "Alle ramen zijn !{{gesloten|open}}",
-          "de": "Alle Fenster sind !{{geschlossen|offen}}"
+          "de": "Alle Fenster sind !{{geschlossen|offen}}",
+          "no": "!{{Alle vinduer er lukket|Et vindu er åpent}}"
         },
         "titleFormatted": {
           "en": "All windows are !{{closed|open}}",
           "nl": "Alle ramen zijn !{{gesloten|open}}",
-          "de": "Alle Fenster sind !{{geschlossen|offen}}"
+          "de": "Alle Fenster sind !{{geschlossen|offen}}",
+          "no": "!{{Alle vinduer er lukket|Et vindu er åpent}}"
         },
         "hint": {
           "en": "This card checks if all vehicle windows are closed.",
           "nl": "Deze kaart controleert of alle ramen van het voertuig gesloten zijn.",
-          "de": "Diese Karte prüft, ob alle Fahrzeugfenster geschlossen sind."
+          "de": "Diese Karte prüft, ob alle Fahrzeugfenster geschlossen sind.",
+          "no": "Sjekker om alle bilens vinduer er lukket."
         },
         "args": [
           {
@@ -923,17 +999,20 @@
         "title": {
           "en": "Close sunroof",
           "nl": "Sluit schuifdak",
-          "de": "Schiebedach schließen"
+          "de": "Schiebedach schließen",
+          "no": "Lukk soltaket"
         },
         "titleFormatted": {
           "en": "Close the sunroof",
           "nl": "Sluit het schuifdak",
-          "de": "Schiebedach schließen"
+          "de": "Schiebedach schließen",
+          "no": "Lukk soltaket"
         },
         "hint": {
           "en": "Closes the sunroof.",
           "nl": "Sluit het schuifdak.",
-          "de": "Schließt das Schiebedach."
+          "de": "Schließt das Schiebedach.",
+          "no": "Lukker soltaket."
         },
         "args": [
           {
@@ -949,7 +1028,8 @@
         "title": {
           "en": "Close windows",
           "nl": "Sluit ramen",
-          "de": "Fenster schließen"
+          "de": "Fenster schließen",
+          "no": "Lukk vinduene"
         },
         "args": [
           {
@@ -963,17 +1043,20 @@
         "title": {
           "en": "Set departure time",
           "nl": "Stel vertrektijd in",
-          "de": "Abfahrtszeit einstellen"
+          "de": "Abfahrtszeit einstellen",
+          "no": "Still avreisetidspunkt"
         },
         "titleFormatted": {
           "en": "Set departure time to [[hour]]:[[minute]] ([[mode]])",
           "nl": "Stel vertrektijd in op [[hour]]:[[minute]] ([[mode]])",
-          "de": "Abfahrtszeit auf [[hour]]:[[minute]] einstellen ([[mode]])"
+          "de": "Abfahrtszeit auf [[hour]]:[[minute]] einstellen ([[mode]])",
+          "no": "Still avreisetidspunkt til [[hour]]:[[minute]] ([[mode]])"
         },
         "hint": {
           "en": "Configures the departure time for preconditioning. The vehicle will be ready at this time.",
           "nl": "Configureert de vertrektijd voor voorklimatisering. Het voertuig is klaar op dit tijdstip.",
-          "de": "Konfiguriert die Abfahrtszeit für die Vorklimatisierung. Das Fahrzeug ist zu diesem Zeitpunkt bereit."
+          "de": "Konfiguriert die Abfahrtszeit für die Vorklimatisierung. Das Fahrzeug ist zu diesem Zeitpunkt bereit.",
+          "no": "Stiller avreisetidspunktet for forvarming. Bilen er klar til dette tidspunktet."
         },
         "args": [
           {
@@ -987,7 +1070,8 @@
             "title": {
               "en": "Hour",
               "nl": "Uur",
-              "de": "Stunde"
+              "de": "Stunde",
+              "no": "Time"
             },
             "min": 0,
             "max": 23,
@@ -999,7 +1083,8 @@
             "title": {
               "en": "Minute",
               "nl": "Minuut",
-              "de": "Minute"
+              "de": "Minute",
+              "no": "Minutt"
             },
             "min": 0,
             "max": 59,
@@ -1011,7 +1096,8 @@
             "title": {
               "en": "Mode",
               "nl": "Modus",
-              "de": "Modus"
+              "de": "Modus",
+              "no": "Modus"
             },
             "values": [
               {
@@ -1019,7 +1105,8 @@
                 "label": {
                   "en": "Disabled",
                   "nl": "Uitgeschakeld",
-                  "de": "Deaktiviert"
+                  "de": "Deaktiviert",
+                  "no": "Av"
                 }
               },
               {
@@ -1027,7 +1114,8 @@
                 "label": {
                   "en": "Single use",
                   "nl": "Eenmalig",
-                  "de": "Einmalig"
+                  "de": "Einmalig",
+                  "no": "Én gang"
                 }
               },
               {
@@ -1035,7 +1123,8 @@
                 "label": {
                   "en": "Weekly",
                   "nl": "Wekelijks",
-                  "de": "Wöchentlich"
+                  "de": "Wöchentlich",
+                  "no": "Ukentlig"
                 }
               }
             ]
@@ -1047,17 +1136,20 @@
         "title": {
           "en": "Set maximum charge level",
           "nl": "Stel maximaal laadniveau in",
-          "de": "Maximalen Ladestand einstellen"
+          "de": "Maximalen Ladestand einstellen",
+          "no": "Still ladegrense"
         },
         "titleFormatted": {
           "en": "Set maximum charge to [[max_soc]]%",
           "nl": "Stel maximale lading in op [[max_soc]]%",
-          "de": "Maximale Ladung auf [[max_soc]]% einstellen"
+          "de": "Maximale Ladung auf [[max_soc]]% einstellen",
+          "no": "Still ladegrense til [[max_soc]] %"
         },
         "hint": {
           "en": "Sets the maximum battery charge level (state of charge) for the vehicle.",
           "nl": "Stelt het maximale batterij laadniveau in voor het voertuig.",
-          "de": "Legt den maximalen Batterieladestand für das Fahrzeug fest."
+          "de": "Legt den maximalen Batterieladestand für das Fahrzeug fest.",
+          "no": "Stiller ladegrensen (høyeste ladenivå) for bilens batteri."
         },
         "args": [
           {
@@ -1071,7 +1163,8 @@
             "title": {
               "en": "Maximum charge %",
               "nl": "Maximaal laden %",
-              "de": "Maximale Ladung %"
+              "de": "Maximale Ladung %",
+              "no": "Ladegrense %"
             },
             "min": 30,
             "max": 100,
@@ -1084,17 +1177,20 @@
         "title": {
           "en": "Configure seat heating",
           "nl": "Stoelverwarming instellen",
-          "de": "Sitzheizung konfigurieren"
+          "de": "Sitzheizung konfigurieren",
+          "no": "Still inn setevarme"
         },
         "titleFormatted": {
           "en": "Configure seat heating (FL: [[front_left]], FR: [[front_right]], RL: [[rear_left]], RR: [[rear_right]])",
           "nl": "Stoelverwarming instellen (LV: [[front_left]], RV: [[front_right]], LA: [[rear_left]], RA: [[rear_right]])",
-          "de": "Sitzheizung konfigurieren (VL: [[front_left]], VR: [[front_right]], HL: [[rear_left]], HR: [[rear_right]])"
+          "de": "Sitzheizung konfigurieren (VL: [[front_left]], VR: [[front_right]], HL: [[rear_left]], HR: [[rear_right]])",
+          "no": "Still inn setevarme (VF: [[front_left]], HF: [[front_right]], VB: [[rear_left]], HB: [[rear_right]])"
         },
         "hint": {
           "en": "Enables or disables seat heating for each seat during preconditioning.",
           "nl": "Schakelt stoelverwarming voor elke stoel in of uit tijdens voorklimatisering.",
-          "de": "Aktiviert oder deaktiviert die Sitzheizung für jeden Sitz während der Vorklimatisierung."
+          "de": "Aktiviert oder deaktiviert die Sitzheizung für jeden Sitz während der Vorklimatisierung.",
+          "no": "Slår setevarmen på eller av for hvert sete under forvarming."
         },
         "args": [
           {
@@ -1108,7 +1204,8 @@
             "title": {
               "en": "Front left",
               "nl": "Linksvoor",
-              "de": "Vorne links"
+              "de": "Vorne links",
+              "no": "Venstre foran"
             }
           },
           {
@@ -1117,7 +1214,8 @@
             "title": {
               "en": "Front right",
               "nl": "Rechtsvoor",
-              "de": "Vorne rechts"
+              "de": "Vorne rechts",
+              "no": "Høyre foran"
             }
           },
           {
@@ -1126,7 +1224,8 @@
             "title": {
               "en": "Rear left",
               "nl": "Linksachter",
-              "de": "Hinten links"
+              "de": "Hinten links",
+              "no": "Venstre bak"
             }
           },
           {
@@ -1135,7 +1234,8 @@
             "title": {
               "en": "Rear right",
               "nl": "Rechtsachter",
-              "de": "Hinten rechts"
+              "de": "Hinten rechts",
+              "no": "Høyre bak"
             }
           }
         ],
@@ -1145,17 +1245,20 @@
         "title": {
           "en": "Set cabin temperature",
           "nl": "Stel cabinetemperatuur in",
-          "de": "Innenraumtemperatur einstellen"
+          "de": "Innenraumtemperatur einstellen",
+          "no": "Still kupétemperatur"
         },
         "titleFormatted": {
           "en": "Set cabin temperature to [[temperature]]°C",
           "nl": "Stel cabinetemperatuur in op [[temperature]]°C",
-          "de": "Innenraumtemperatur auf [[temperature]]°C einstellen"
+          "de": "Innenraumtemperatur auf [[temperature]]°C einstellen",
+          "no": "Still kupétemperatur til [[temperature]] °C"
         },
         "hint": {
           "en": "Sets the target temperature for the vehicle's climate control.",
           "nl": "Stelt de doeltemperatuur in voor de klimaatregeling van het voertuig.",
-          "de": "Legt die Zieltemperatur für die Klimaanlage des Fahrzeugs fest."
+          "de": "Legt die Zieltemperatur für die Klimaanlage des Fahrzeugs fest.",
+          "no": "Stiller ønsket temperatur for bilens klimaregulering."
         },
         "args": [
           {
@@ -1169,7 +1272,8 @@
             "title": {
               "en": "Temperature (°C)",
               "nl": "Temperatuur (°C)",
-              "de": "Temperatur (°C)"
+              "de": "Temperatur (°C)",
+              "no": "Temperatur (°C)"
             },
             "min": 16,
             "max": 28,
@@ -1183,7 +1287,8 @@
         "title": {
           "en": "Flash lights",
           "nl": "Knipperlichten",
-          "de": "Lichter blinken"
+          "de": "Lichter blinken",
+          "no": "Blink med lysene"
         },
         "args": [
           {
@@ -1198,7 +1303,8 @@
         "title": {
           "en": "Lock vehicle",
           "nl": "Vergrendel voertuig",
-          "de": "Fahrzeug verriegeln"
+          "de": "Fahrzeug verriegeln",
+          "no": "Lås bilen"
         },
         "args": [
           {
@@ -1212,17 +1318,20 @@
         "title": {
           "en": "Open sunroof",
           "nl": "Open schuifdak",
-          "de": "Schiebedach öffnen"
+          "de": "Schiebedach öffnen",
+          "no": "Åpne soltaket"
         },
         "titleFormatted": {
           "en": "Open the sunroof",
           "nl": "Open het schuifdak",
-          "de": "Schiebedach öffnen"
+          "de": "Schiebedach öffnen",
+          "no": "Åpne soltaket"
         },
         "hint": {
           "en": "Opens the sunroof. Requires PIN configuration in device settings.",
           "nl": "Opent het schuifdak. PIN-configuratie in apparaatinstellingen vereist.",
-          "de": "Öffnet das Schiebedach. Erfordert PIN-Konfiguration in den Geräteeinstellungen."
+          "de": "Öffnet das Schiebedach. Erfordert PIN-Konfiguration in den Geräteeinstellungen.",
+          "no": "Åpner soltaket. Krever at PIN er satt i enhetsinnstillingene."
         },
         "args": [
           {
@@ -1238,12 +1347,14 @@
         "title": {
           "en": "Open windows",
           "nl": "Open ramen",
-          "de": "Fenster öffnen"
+          "de": "Fenster öffnen",
+          "no": "Åpne vinduene"
         },
         "hint": {
           "en": "Requires PIN to be configured in device settings",
           "nl": "Vereist dat PIN is geconfigureerd in apparaatinstellingen",
-          "de": "Erfordert PIN-Konfiguration in den Geräteeinstellungen"
+          "de": "Erfordert PIN-Konfiguration in den Geräteeinstellungen",
+          "no": "Krever at PIN er satt i enhetsinnstillingene"
         },
         "args": [
           {
@@ -1258,17 +1369,20 @@
         "title": {
           "en": "Refresh vehicle data",
           "nl": "Voertuiggegevens vernieuwen",
-          "de": "Fahrzeugdaten aktualisieren"
+          "de": "Fahrzeugdaten aktualisieren",
+          "no": "Oppdater bildata"
         },
         "titleFormatted": {
           "en": "Refresh vehicle data",
           "nl": "Voertuiggegevens vernieuwen",
-          "de": "Fahrzeugdaten aktualisieren"
+          "de": "Fahrzeugdaten aktualisieren",
+          "no": "Oppdater bildata"
         },
         "hint": {
           "en": "Manually refresh all vehicle data from the Mercedes API",
           "nl": "Handmatig alle voertuiggegevens vernieuwen van de Mercedes API",
-          "de": "Alle Fahrzeugdaten manuell von der Mercedes-API aktualisieren"
+          "de": "Alle Fahrzeugdaten manuell von der Mercedes-API aktualisieren",
+          "no": "Henter alle bildata fra Mercedes på nytt"
         },
         "args": [
           {
@@ -1282,17 +1396,20 @@
         "title": {
           "en": "Send route to car",
           "nl": "Stuur route naar auto",
-          "de": "Route an Auto senden"
+          "de": "Route an Auto senden",
+          "no": "Send rute til bilen"
         },
         "titleFormatted": {
           "en": "Send route [[title]] ([[latitude]], [[longitude]])",
           "nl": "Stuur route [[title]] ([[latitude]], [[longitude]])",
-          "de": "Route [[title]] senden ([[latitude]], [[longitude]])"
+          "de": "Route [[title]] senden ([[latitude]], [[longitude]])",
+          "no": "Send rute [[title]] ([[latitude]], [[longitude]])"
         },
         "hint": {
           "en": "Sends a destination to the vehicle's navigation system.",
           "nl": "Stuurt een bestemming naar het navigatiesysteem van het voertuig.",
-          "de": "Sendet ein Ziel an das Navigationssystem des Fahrzeugs."
+          "de": "Sendet ein Ziel an das Navigationssystem des Fahrzeugs.",
+          "no": "Sender et reisemål til bilens navigasjonssystem."
         },
         "args": [
           {
@@ -1306,12 +1423,14 @@
             "title": {
               "en": "Destination name",
               "nl": "Bestemmingsnaam",
-              "de": "Zielname"
+              "de": "Zielname",
+              "no": "Navn på reisemål"
             },
             "placeholder": {
               "en": "Home",
               "nl": "Thuis",
-              "de": "Zuhause"
+              "de": "Zuhause",
+              "no": "Hjem"
             }
           },
           {
@@ -1320,12 +1439,14 @@
             "title": {
               "en": "Latitude",
               "nl": "Breedtegraad",
-              "de": "Breitengrad"
+              "de": "Breitengrad",
+              "no": "Breddegrad"
             },
             "placeholder": {
               "en": "52.3676",
               "nl": "52.3676",
-              "de": "52.3676"
+              "de": "52.3676",
+              "no": "59.9139"
             }
           },
           {
@@ -1334,12 +1455,14 @@
             "title": {
               "en": "Longitude",
               "nl": "Lengtegraad",
-              "de": "Längengrad"
+              "de": "Längengrad",
+              "no": "Lengdegrad"
             },
             "placeholder": {
               "en": "4.9041",
               "nl": "4.9041",
-              "de": "4.9041"
+              "de": "4.9041",
+              "no": "10.7522"
             }
           }
         ],
@@ -1349,17 +1472,20 @@
         "title": {
           "en": "Sound horn",
           "nl": "Claxonneer",
-          "de": "Hupe betätigen"
+          "de": "Hupe betätigen",
+          "no": "Tut med hornet"
         },
         "titleFormatted": {
           "en": "Sound horn ([[mode]])",
           "nl": "Claxonneer ([[mode]])",
-          "de": "Hupe betätigen ([[mode]])"
+          "de": "Hupe betätigen ([[mode]])",
+          "no": "Tut med hornet ([[mode]])"
         },
         "hint": {
           "en": "Sounds the vehicle's horn. Use with care as this may disturb others.",
           "nl": "Laat de claxon van het voertuig klinken. Gebruik met zorg, dit kan anderen storen.",
-          "de": "Betätigt die Fahrzeughupe. Mit Vorsicht verwenden, da dies andere stören kann."
+          "de": "Betätigt die Fahrzeughupe. Mit Vorsicht verwenden, da dies andere stören kann.",
+          "no": "Tuter med bilens horn. Bruk det med omtanke, det kan forstyrre andre."
         },
         "args": [
           {
@@ -1373,7 +1499,8 @@
             "title": {
               "en": "Mode",
               "nl": "Modus",
-              "de": "Modus"
+              "de": "Modus",
+              "no": "Modus"
             },
             "values": [
               {
@@ -1381,7 +1508,8 @@
                 "label": {
                   "en": "Horn and lights",
                   "nl": "Claxon en lichten",
-                  "de": "Hupe und Lichter"
+                  "de": "Hupe und Lichter",
+                  "no": "Horn og lys"
                 }
               },
               {
@@ -1389,7 +1517,8 @@
                 "label": {
                   "en": "Horn only",
                   "nl": "Alleen claxon",
-                  "de": "Nur Hupe"
+                  "de": "Nur Hupe",
+                  "no": "Bare horn"
                 }
               },
               {
@@ -1397,7 +1526,8 @@
                 "label": {
                   "en": "Panic alarm",
                   "nl": "Paniek alarm",
-                  "de": "Panikalarm"
+                  "de": "Panikalarm",
+                  "no": "Panikkalarm"
                 }
               }
             ]
@@ -1411,7 +1541,8 @@
         "title": {
           "en": "Resume charging",
           "nl": "Hervat opladen",
-          "de": "Laden fortsetzen"
+          "de": "Laden fortsetzen",
+          "no": "Fortsett lading"
         },
         "args": [
           {
@@ -1426,7 +1557,8 @@
         "title": {
           "en": "Start climate control",
           "nl": "Start klimaatregeling",
-          "de": "Klimatisierung starten"
+          "de": "Klimatisierung starten",
+          "no": "Aktiver klimaregulering"
         },
         "args": [
           {
@@ -1441,12 +1573,14 @@
         "title": {
           "en": "Start engine",
           "nl": "Start motor",
-          "de": "Motor starten"
+          "de": "Motor starten",
+          "no": "Start motoren"
         },
         "hint": {
           "en": "Requires PIN to be configured in device settings",
           "nl": "Vereist dat PIN is geconfigureerd in apparaatinstellingen",
-          "de": "Erfordert PIN-Konfiguration in den Geräteeinstellungen"
+          "de": "Erfordert PIN-Konfiguration in den Geräteeinstellungen",
+          "no": "Krever at PIN er satt i enhetsinnstillingene"
         },
         "args": [
           {
@@ -1460,12 +1594,14 @@
         "title": {
           "en": "Start preconditioning",
           "nl": "Start voorklimatisering",
-          "de": "Vorklimatisierung starten"
+          "de": "Vorklimatisierung starten",
+          "no": "Aktiver forvarming"
         },
         "hint": {
           "en": "Starts the electric climate control (preconditioning) for the vehicle. Works best when plugged in.",
           "nl": "Start de elektrische klimaatregeling (voorklimatisering) voor het voertuig. Werkt het beste wanneer aangesloten.",
-          "de": "Startet die elektrische Klimaanlage (Vorklimatisierung) für das Fahrzeug. Funktioniert am besten bei angeschlossenem Ladekabel."
+          "de": "Startet die elektrische Klimaanlage (Vorklimatisierung) für das Fahrzeug. Funktioniert am besten bei angeschlossenem Ladekabel.",
+          "no": "Starter forvarmingen (elektrisk klimaregulering) av bilen. Fungerer best med ladekabelen tilkoblet."
         },
         "args": [
           {
@@ -1482,7 +1618,8 @@
         "title": {
           "en": "Pause charging",
           "nl": "Pauzeer opladen",
-          "de": "Laden pausieren"
+          "de": "Laden pausieren",
+          "no": "Pause lading"
         },
         "args": [
           {
@@ -1497,7 +1634,8 @@
         "title": {
           "en": "Stop climate control",
           "nl": "Stop klimaatregeling",
-          "de": "Klimatisierung stoppen"
+          "de": "Klimatisierung stoppen",
+          "no": "Deaktiver klimaregulering"
         },
         "args": [
           {
@@ -1512,7 +1650,8 @@
         "title": {
           "en": "Stop engine",
           "nl": "Stop motor",
-          "de": "Motor stoppen"
+          "de": "Motor stoppen",
+          "no": "Stopp motoren"
         },
         "args": [
           {
@@ -1526,12 +1665,14 @@
         "title": {
           "en": "Stop preconditioning",
           "nl": "Stop voorklimatisering",
-          "de": "Vorklimatisierung stoppen"
+          "de": "Vorklimatisierung stoppen",
+          "no": "Deaktiver forvarming"
         },
         "hint": {
           "en": "Stops the electric climate control (preconditioning) for the vehicle.",
           "nl": "Stopt de elektrische klimaatregeling (voorklimatisering) voor het voertuig.",
-          "de": "Stoppt die elektrische Klimaanlage (Vorklimatisierung) für das Fahrzeug."
+          "de": "Stoppt die elektrische Klimaanlage (Vorklimatisierung) für das Fahrzeug.",
+          "no": "Stopper forvarmingen (elektrisk klimaregulering) av bilen."
         },
         "args": [
           {
@@ -1546,17 +1687,20 @@
         "title": {
           "en": "Tilt sunroof",
           "nl": "Kantel schuifdak",
-          "de": "Schiebedach kippen"
+          "de": "Schiebedach kippen",
+          "no": "Vipp soltaket"
         },
         "titleFormatted": {
           "en": "Tilt the sunroof",
           "nl": "Kantel het schuifdak",
-          "de": "Schiebedach kippen"
+          "de": "Schiebedach kippen",
+          "no": "Vipp soltaket"
         },
         "hint": {
           "en": "Tilts/lifts the sunroof for ventilation.",
           "nl": "Kantelt het schuifdak voor ventilatie.",
-          "de": "Kippt das Schiebedach zur Belüftung."
+          "de": "Kippt das Schiebedach zur Belüftung.",
+          "no": "Vipper soltaket opp for lufting."
         },
         "args": [
           {
@@ -1572,12 +1716,14 @@
         "title": {
           "en": "Unlock vehicle",
           "nl": "Ontgrendel voertuig",
-          "de": "Fahrzeug entriegeln"
+          "de": "Fahrzeug entriegeln",
+          "no": "Lås opp bilen"
         },
         "hint": {
           "en": "Requires PIN to be configured in device settings",
           "nl": "Vereist dat PIN is geconfigureerd in apparaatinstellingen",
-          "de": "Erfordert PIN-Konfiguration in den Geräteeinstellungen"
+          "de": "Erfordert PIN-Konfiguration in den Geräteeinstellungen",
+          "no": "Krever at PIN er satt i enhetsinnstillingene"
         },
         "args": [
           {
@@ -1594,7 +1740,8 @@
       "name": {
         "en": "Mercedes-Benz Vehicle",
         "nl": "Mercedes-Benz Voertuig",
-        "de": "Mercedes-Benz Fahrzeug"
+        "de": "Mercedes-Benz Fahrzeug",
+        "no": "Mercedes-Benz-bil"
       },
       "class": "other",
       "connectivity": [
@@ -1697,7 +1844,8 @@
           "label": {
             "en": "Data Refresh",
             "nl": "Gegevens verversen",
-            "de": "Datenaktualisierung"
+            "de": "Datenaktualisierung",
+            "no": "Dataoppdatering"
           },
           "children": [
             {
@@ -1706,12 +1854,14 @@
               "label": {
                 "en": "Disable automatic refresh",
                 "nl": "Automatisch vernieuwen uitschakelen",
-                "de": "Automatische Aktualisierung deaktivieren"
+                "de": "Automatische Aktualisierung deaktivieren",
+                "no": "Slå av automatisk oppdatering"
               },
               "hint": {
                 "en": "Turn off automatic refresh and use a flow trigger to retrieve data instead.",
                 "nl": "Schakel automatisch vernieuwen uit en gebruik een flow-trigger om gegevens op te halen.",
-                "de": "Deaktivieren Sie die automatische Aktualisierung und verwenden Sie stattdessen einen Flow-Trigger zum Abrufen von Daten."
+                "de": "Deaktivieren Sie die automatische Aktualisierung und verwenden Sie stattdessen einen Flow-Trigger zum Abrufen von Daten.",
+                "no": "Slå av automatisk oppdatering og hent data med et flowkort i stedet."
               },
               "value": false
             },
@@ -1721,12 +1871,14 @@
               "label": {
                 "en": "Refresh interval (seconds)",
                 "nl": "Verversingsinterval (seconden)",
-                "de": "Aktualisierungsintervall (Sekunden)"
+                "de": "Aktualisierungsintervall (Sekunden)",
+                "no": "Oppdateringsintervall (sekunder)"
               },
               "hint": {
                 "en": "How often the app should pull data from the Mercedes API. Lower values provide more frequent updates but may drain your car's 12V battery faster. Recommended: 120-300 seconds.",
                 "nl": "Hoe vaak de app gegevens moet ophalen van de Mercedes API. Lagere waarden zorgen voor frequentere updates, maar kunnen de 12V-accu van uw auto sneller leegmaken. Aanbevolen: 120-300 seconden.",
-                "de": "Wie oft die App Daten von der Mercedes-API abrufen soll. Niedrigere Werte bieten häufigere Updates, können aber die 12V-Batterie Ihres Autos schneller entladen. Empfohlen: 120-300 Sekunden."
+                "de": "Wie oft die App Daten von der Mercedes-API abrufen soll. Niedrigere Werte bieten häufigere Updates, können aber die 12V-Batterie Ihres Autos schneller entladen. Empfohlen: 120-300 Sekunden.",
+                "no": "Hvor ofte appen henter data fra Mercedes. Lavere verdier gir hyppigere oppdateringer, men kan tappe bilens 12 V-batteri raskere. Anbefalt: 120–300 sekunder."
               },
               "value": 1800,
               "min": 30,
@@ -1734,7 +1886,8 @@
               "units": {
                 "en": "seconds",
                 "nl": "seconden",
-                "de": "Sekunden"
+                "de": "Sekunden",
+                "no": "sekunder"
               }
             }
           ]
@@ -1744,7 +1897,8 @@
           "label": {
             "en": "Security",
             "nl": "Beveiliging",
-            "de": "Sicherheit"
+            "de": "Sicherheit",
+            "no": "Sikkerhet"
           },
           "children": [
             {
@@ -1753,12 +1907,14 @@
               "label": {
                 "en": "Security PIN",
                 "nl": "Beveiligings-PIN",
-                "de": "Sicherheits-PIN"
+                "de": "Sicherheits-PIN",
+                "no": "Sikkerhets-PIN"
               },
               "hint": {
                 "en": "Your Mercedes me PIN is required for operations like unlocking the vehicle and starting the engine.",
                 "nl": "Uw Mercedes me PIN is nodig voor handelingen zoals het ontgrendelen van het voertuig en het starten van de motor.",
-                "de": "Ihre Mercedes me PIN wird für Vorgänge wie das Entriegeln des Fahrzeugs und das Starten des Motors benötigt."
+                "de": "Ihre Mercedes me PIN wird für Vorgänge wie das Entriegeln des Fahrzeugs und das Starten des Motors benötigt.",
+                "no": "Mercedes me-PIN-koden din trengs for handlinger som å låse opp bilen og starte motoren."
               },
               "value": ""
             }
@@ -1774,7 +1930,8 @@
       "title": {
         "en": "Theft Alarm",
         "nl": "Diefstalalarm",
-        "de": "Diebstahlalarm"
+        "de": "Diebstahlalarm",
+        "no": "Tyverialarm utløst"
       },
       "getable": true,
       "setable": false,
@@ -1786,7 +1943,8 @@
       "title": {
         "en": "Average Speed",
         "nl": "Gemiddelde Snelheid",
-        "de": "Durchschnittsgeschwindigkeit"
+        "de": "Durchschnittsgeschwindigkeit",
+        "no": "Gjennomsnittshastighet fra start"
       },
       "units": {
         "en": "km/h"
@@ -1804,7 +1962,8 @@
       "title": {
         "en": "Climate active",
         "nl": "Klimaat actief",
-        "de": "Klimaanlage aktiv"
+        "de": "Klimaanlage aktiv",
+        "no": "Klimaregulering på"
       },
       "getable": true,
       "setable": true,
@@ -1814,12 +1973,14 @@
       "insightsTitleTrue": {
         "en": "Climate turned on",
         "nl": "Klimaat aan",
-        "de": "Klimaanlage an"
+        "de": "Klimaanlage an",
+        "no": "Klimaregulering på"
       },
       "insightsTitleFalse": {
         "en": "Climate turned off",
         "nl": "Klimaat uit",
-        "de": "Klimaanlage aus"
+        "de": "Klimaanlage aus",
+        "no": "Klimaregulering av"
       }
     },
     "distance_electrical": {
@@ -1827,7 +1988,8 @@
       "title": {
         "en": "Electric Distance",
         "nl": "Elektrische Afstand",
-        "de": "Elektrische Strecke"
+        "de": "Elektrische Strecke",
+        "no": "Elektrisk kjørt strekning fra start"
       },
       "units": {
         "en": "km"
@@ -1846,7 +2008,7 @@
         "en": "Distance Since Reset",
         "nl": "Afstand sinds reset",
         "de": "Strecke seit Zurücksetzen",
-        "no": "Distanse siden tilbakestilling"
+        "no": "Kjørt strekning fra tilbakestilling"
       },
       "units": {
         "en": "km"
@@ -1865,7 +2027,8 @@
       "title": {
         "en": "Trip Distance",
         "nl": "Ritafstand",
-        "de": "Fahrtstrecke"
+        "de": "Fahrtstrecke",
+        "no": "Kjørt strekning fra start"
       },
       "units": {
         "en": "km"
@@ -1883,7 +2046,8 @@
       "title": {
         "en": "Door, Front Left",
         "nl": "Deur, Links Voor",
-        "de": "Tür, Vorne Links"
+        "de": "Tür, Vorne Links",
+        "no": "Dør, venstre foran"
       },
       "getable": true,
       "setable": false,
@@ -1895,7 +2059,8 @@
       "title": {
         "en": "Door, Front Right",
         "nl": "Deur, Rechts Voor",
-        "de": "Tür, Vorne Rechts"
+        "de": "Tür, Vorne Rechts",
+        "no": "Dør, høyre foran"
       },
       "getable": true,
       "setable": false,
@@ -1907,7 +2072,8 @@
       "title": {
         "en": "Hood",
         "nl": "Motorkap",
-        "de": "Motorhaube"
+        "de": "Motorhaube",
+        "no": "Motorpanser"
       },
       "getable": true,
       "setable": false,
@@ -1919,7 +2085,8 @@
       "title": {
         "en": "Door, Rear Left",
         "nl": "Deur, Links Achter",
-        "de": "Tür, Hinten Links"
+        "de": "Tür, Hinten Links",
+        "no": "Dør, venstre bak"
       },
       "getable": true,
       "setable": false,
@@ -1931,7 +2098,8 @@
       "title": {
         "en": "Door, Rear Right",
         "nl": "Deur, Rechts Achter",
-        "de": "Tür, Hinten Rechts"
+        "de": "Tür, Hinten Rechts",
+        "no": "Dør, høyre bak"
       },
       "getable": true,
       "setable": false,
@@ -1943,7 +2111,8 @@
       "title": {
         "en": "Trunk",
         "nl": "Kofferbak",
-        "de": "Kofferraum"
+        "de": "Kofferraum",
+        "no": "Bagasjerom"
       },
       "getable": true,
       "setable": false,
@@ -1955,7 +2124,8 @@
       "title": {
         "en": "Driving Time",
         "nl": "Rijtijd",
-        "de": "Fahrzeit"
+        "de": "Fahrzeit",
+        "no": "Kjøretid fra start"
       },
       "units": {
         "en": "min"
@@ -1973,7 +2143,8 @@
       "title": {
         "en": "Eco Score Acceleration",
         "nl": "Eco Score Acceleratie",
-        "de": "Eco Score Beschleunigung"
+        "de": "Eco Score Beschleunigung",
+        "no": "ECO-score akselerasjon"
       },
       "decimals": 0,
       "min": 0,
@@ -1988,7 +2159,8 @@
       "title": {
         "en": "Eco Score Constant",
         "nl": "Eco Score Constant",
-        "de": "Eco Score Konstant"
+        "de": "Eco Score Konstant",
+        "no": "ECO-score jevn kjøring"
       },
       "decimals": 0,
       "min": 0,
@@ -2003,7 +2175,8 @@
       "title": {
         "en": "Eco Score Freewheel",
         "nl": "Eco Score Vrijloop",
-        "de": "Eco Score Freilauf"
+        "de": "Eco Score Freilauf",
+        "no": "ECO-score frihjul"
       },
       "decimals": 0,
       "min": 0,
@@ -2019,7 +2192,7 @@
         "en": "Consumption Since Reset",
         "nl": "Verbruik sinds reset",
         "de": "Verbrauch seit Zurücksetzen",
-        "no": "Forbruk siden tilbakestilling"
+        "no": "Gjennomsnittsforbruk fra tilbakestilling"
       },
       "units": {
         "en": "kWh/100 km"
@@ -2038,7 +2211,8 @@
       "title": {
         "en": "Trip Consumption",
         "nl": "Ritverbruik",
-        "de": "Fahrtverbrauch"
+        "de": "Fahrtverbrauch",
+        "no": "Gjennomsnittsforbruk fra start"
       },
       "units": {
         "en": "kWh/100 km"
@@ -2057,7 +2231,8 @@
       "title": {
         "en": "Engine running",
         "nl": "Motor draait",
-        "de": "Motor läuft"
+        "de": "Motor läuft",
+        "no": "Motor på"
       },
       "getable": true,
       "setable": false,
@@ -2067,12 +2242,14 @@
       "insightsTitleTrue": {
         "en": "Engine started",
         "nl": "Motor gestart",
-        "de": "Motor gestartet"
+        "de": "Motor gestartet",
+        "no": "Motor startet"
       },
       "insightsTitleFalse": {
         "en": "Engine stopped",
         "nl": "Motor gestopt",
-        "de": "Motor gestoppt"
+        "de": "Motor gestoppt",
+        "no": "Motor stoppet"
       }
     },
     "ignition_on": {
@@ -2080,7 +2257,8 @@
       "title": {
         "en": "Ignition on",
         "nl": "Ontsteking aan",
-        "de": "Zündung an"
+        "de": "Zündung an",
+        "no": "Tenning på"
       },
       "getable": true,
       "setable": false,
@@ -2089,12 +2267,14 @@
       "insightsTitleTrue": {
         "en": "Ignition turned on",
         "nl": "Ontsteking aan",
-        "de": "Zündung eingeschaltet"
+        "de": "Zündung eingeschaltet",
+        "no": "Tenning slått på"
       },
       "insightsTitleFalse": {
         "en": "Ignition turned off",
         "nl": "Ontsteking uit",
-        "de": "Zündung ausgeschaltet"
+        "de": "Zündung ausgeschaltet",
+        "no": "Tenning slått av"
       }
     },
     "measure_adblue_level": {
@@ -2102,12 +2282,14 @@
       "title": {
         "en": "AdBlue Level",
         "nl": "AdBlue Niveau",
-        "de": "AdBlue Füllstand"
+        "de": "AdBlue Füllstand",
+        "no": "AdBlue-nivå"
       },
       "label": {
         "en": "AdBlue",
         "nl": "AdBlue",
-        "de": "AdBlue"
+        "de": "AdBlue",
+        "no": "AdBlue"
       },
       "units": {
         "en": "%"
@@ -2126,7 +2308,8 @@
       "title": {
         "en": "Battery Temperature",
         "nl": "Batterijtemperatuur",
-        "de": "Batterietemperatur"
+        "de": "Batterietemperatur",
+        "no": "Batteritemperatur"
       },
       "units": {
         "en": "°C"
@@ -2144,12 +2327,14 @@
       "title": {
         "en": "Charge Power",
         "nl": "Laadvermogen",
-        "de": "Ladeleistung"
+        "de": "Ladeleistung",
+        "no": "Ladeeffekt"
       },
       "label": {
         "en": "Charge Power",
         "nl": "Laadvermogen",
-        "de": "Ladeleistung"
+        "de": "Ladeleistung",
+        "no": "Ladeeffekt"
       },
       "units": {
         "en": "kW"
@@ -2166,7 +2351,8 @@
       "title": {
         "en": "Climate Setpoint",
         "nl": "Ingestelde temperatuur",
-        "de": "Solltemperatur"
+        "de": "Solltemperatur",
+        "no": "Ønsket temperatur"
       },
       "units": {
         "en": "°C"
@@ -2184,12 +2370,14 @@
       "title": {
         "en": "Fuel Level",
         "nl": "Brandstofniveau",
-        "de": "Tankfüllstand"
+        "de": "Tankfüllstand",
+        "no": "Drivstoffnivå"
       },
       "label": {
         "en": "Fuel",
         "nl": "Brandstof",
-        "de": "Tank"
+        "de": "Tank",
+        "no": "Drivstoff"
       },
       "units": {
         "en": "%"
@@ -2208,7 +2396,8 @@
       "title": {
         "en": "Heading",
         "nl": "Richting",
-        "de": "Kurs"
+        "de": "Kurs",
+        "no": "Kjøreretning"
       },
       "units": {
         "en": "°"
@@ -2227,7 +2416,8 @@
       "title": {
         "en": "Latitude",
         "nl": "Breedtegraad",
-        "de": "Breitengrad"
+        "de": "Breitengrad",
+        "no": "Breddegrad"
       },
       "decimals": 6,
       "icon": "/assets/icons/latitude.svg",
@@ -2240,7 +2430,8 @@
       "title": {
         "en": "Longitude",
         "nl": "Lengtegraad",
-        "de": "Längengrad"
+        "de": "Längengrad",
+        "no": "Lengdegrad"
       },
       "decimals": 6,
       "icon": "/assets/icons/longitude.svg",
@@ -2253,12 +2444,14 @@
       "title": {
         "en": "Max SoC",
         "nl": "Max Laadniveau",
-        "de": "Max Ladezustand"
+        "de": "Max Ladezustand",
+        "no": "Ladegrense"
       },
       "label": {
         "en": "Max SoC",
         "nl": "Max Laadniveau",
-        "de": "Max Ladezustand"
+        "de": "Max Ladezustand",
+        "no": "Ladegrense"
       },
       "units": {
         "en": "%"
@@ -2277,12 +2470,14 @@
       "title": {
         "en": "Oil Level",
         "nl": "Oliepeil",
-        "de": "Ölstand"
+        "de": "Ölstand",
+        "no": "Oljenivå"
       },
       "label": {
         "en": "Oil",
         "nl": "Olie",
-        "de": "Öl"
+        "de": "Öl",
+        "no": "Olje"
       },
       "units": {
         "en": "%"
@@ -2301,12 +2496,14 @@
       "title": {
         "en": "Electric Range",
         "nl": "Elektrisch Bereik",
-        "de": "Elektrische Reichweite"
+        "de": "Elektrische Reichweite",
+        "no": "Rekkevidde (el)"
       },
       "label": {
         "en": "Range (EV)",
         "nl": "Bereik (EV)",
-        "de": "Reichweite (EV)"
+        "de": "Reichweite (EV)",
+        "no": "Rekkevidde (el)"
       },
       "units": {
         "en": "km"
@@ -2323,12 +2520,14 @@
       "title": {
         "en": "Liquid Range",
         "nl": "Brandstof Bereik",
-        "de": "Kraftstoff Reichweite"
+        "de": "Kraftstoff Reichweite",
+        "no": "Rekkevidde (drivstoff)"
       },
       "label": {
         "en": "Range (Fuel)",
         "nl": "Bereik (Brandstof)",
-        "de": "Reichweite (Kraftstoff)"
+        "de": "Reichweite (Kraftstoff)",
+        "no": "Rekkevidde (drivstoff)"
       },
       "units": {
         "en": "km"
@@ -2345,12 +2544,14 @@
       "title": {
         "en": "Service in Days",
         "nl": "Service over Dagen",
-        "de": "Service in Tagen"
+        "de": "Service in Tagen",
+        "no": "Dager til vedlikeholdsservice"
       },
       "units": {
         "en": "days",
         "nl": "dagen",
-        "de": "Tage"
+        "de": "Tage",
+        "no": "dager"
       },
       "decimals": 0,
       "getable": true,
@@ -2363,7 +2564,8 @@
       "title": {
         "en": "Odometer",
         "nl": "Kilometerstand",
-        "de": "Kilometerstand"
+        "de": "Kilometerstand",
+        "no": "Kilometerstand"
       },
       "units": {
         "en": "km"
@@ -2381,7 +2583,8 @@
       "title": {
         "en": "Auxiliary heating",
         "nl": "Standverwarming",
-        "de": "Standheizung"
+        "de": "Standheizung",
+        "no": "Parkeringsvarmer"
       },
       "getable": true,
       "setable": false,
@@ -2391,12 +2594,14 @@
       "insightsTitleTrue": {
         "en": "Auxiliary heating on",
         "nl": "Standverwarming aan",
-        "de": "Standheizung an"
+        "de": "Standheizung an",
+        "no": "Parkeringsvarmer på"
       },
       "insightsTitleFalse": {
         "en": "Auxiliary heating off",
         "nl": "Standverwarming uit",
-        "de": "Standheizung aus"
+        "de": "Standheizung aus",
+        "no": "Parkeringsvarmer av"
       }
     },
     "onoff_charging": {
@@ -2404,7 +2609,8 @@
       "title": {
         "en": "Charging",
         "nl": "Opladen",
-        "de": "Laden"
+        "de": "Laden",
+        "no": "Lading"
       },
       "getable": true,
       "setable": true,
@@ -2416,7 +2622,8 @@
       "title": {
         "en": "Connector Connected",
         "nl": "Connector aangesloten",
-        "de": "Stecker verbunden"
+        "de": "Stecker verbunden",
+        "no": "Ladekabel tilkoblet"
       },
       "getable": true,
       "setable": false,
@@ -2428,7 +2635,8 @@
       "title": {
         "en": "Preconditioning",
         "nl": "Voorconditionering",
-        "de": "Vorklimatisierung"
+        "de": "Vorklimatisierung",
+        "no": "Forvarming"
       },
       "getable": true,
       "setable": false,
@@ -2440,7 +2648,8 @@
       "title": {
         "en": "Remote start",
         "nl": "Afstandsstart",
-        "de": "Fernstart"
+        "de": "Fernstart",
+        "no": "Fjernstart"
       },
       "getable": true,
       "setable": false,
@@ -2450,12 +2659,14 @@
       "insightsTitleTrue": {
         "en": "Remote start active",
         "nl": "Afstandsstart actief",
-        "de": "Fernstart aktiv"
+        "de": "Fernstart aktiv",
+        "no": "Fjernstart på"
       },
       "insightsTitleFalse": {
         "en": "Remote start inactive",
         "nl": "Afstandsstart inactief",
-        "de": "Fernstart inaktiv"
+        "de": "Fernstart inaktiv",
+        "no": "Fjernstart av"
       }
     },
     "parking_brake_engaged": {
@@ -2463,7 +2674,8 @@
       "title": {
         "en": "Parking Brake",
         "nl": "Handrem",
-        "de": "Feststellbremse"
+        "de": "Feststellbremse",
+        "no": "Parkeringsbrems"
       },
       "getable": true,
       "setable": false,
@@ -2475,7 +2687,8 @@
       "title": {
         "en": "Charge Program",
         "nl": "Laadprogramma",
-        "de": "Ladeprogramm"
+        "de": "Ladeprogramm",
+        "no": "Ladeprogram"
       },
       "getable": true,
       "setable": false,
@@ -2487,7 +2700,8 @@
       "title": {
         "en": "Charging Status",
         "nl": "Laadstatus",
-        "de": "Ladestatus"
+        "de": "Ladestatus",
+        "no": "Ladestatus"
       },
       "getable": true,
       "setable": false,
@@ -2499,7 +2713,8 @@
       "title": {
         "en": "Connector Status",
         "nl": "Connectorstatus",
-        "de": "Anschlussstatus"
+        "de": "Anschlussstatus",
+        "no": "Ladekabelstatus"
       },
       "getable": true,
       "setable": false,
@@ -2511,7 +2726,8 @@
       "title": {
         "en": "Departure Time",
         "nl": "Vertrektijd",
-        "de": "Abfahrtszeit"
+        "de": "Abfahrtszeit",
+        "no": "Avreisetidspunkt"
       },
       "getable": true,
       "setable": false,
@@ -2523,7 +2739,8 @@
       "title": {
         "en": "Departure Time Mode",
         "nl": "Vertrektijd Modus",
-        "de": "Abfahrtszeit Modus"
+        "de": "Abfahrtszeit Modus",
+        "no": "Avreisetidspunkt, modus"
       },
       "getable": true,
       "setable": false,
@@ -2535,12 +2752,14 @@
       "title": {
         "en": "End of Charge Time",
         "nl": "Eindtijd Laden",
-        "de": "Ladeende Zeit"
+        "de": "Ladeende Zeit",
+        "no": "Lading ferdig kl."
       },
       "label": {
         "en": "End of Charge",
         "nl": "Eindtijd Laden",
-        "de": "Ladeende"
+        "de": "Ladeende",
+        "no": "Lading ferdig"
       },
       "getable": true,
       "setable": false,
@@ -2552,7 +2771,8 @@
       "title": {
         "en": "Last Geofence Event",
         "nl": "Laatste Geofence Event",
-        "de": "Letztes Geofence Ereignis"
+        "de": "Letztes Geofence Ereignis",
+        "no": "Siste sonehendelse"
       },
       "getable": true,
       "setable": false,
@@ -2564,7 +2784,8 @@
       "title": {
         "en": "Last Geofence Zone",
         "nl": "Laatste Geofence Zone",
-        "de": "Letzte Geofence Zone"
+        "de": "Letzte Geofence Zone",
+        "no": "Siste sone"
       },
       "getable": true,
       "setable": false,
@@ -2576,7 +2797,8 @@
       "title": {
         "en": "Weekly Departure Times",
         "nl": "Wekelijkse vertrektijden",
-        "de": "Wöchentliche Abfahrtszeiten"
+        "de": "Wöchentliche Abfahrtszeiten",
+        "no": "Ukentlige avreisetidspunkter"
       },
       "getable": true,
       "setable": false,
@@ -2588,7 +2810,8 @@
       "title": {
         "en": "Theft system armed",
         "nl": "Anti-diefstal systeem ingeschakeld",
-        "de": "Diebstahlsicherung aktiviert"
+        "de": "Diebstahlsicherung aktiviert",
+        "no": "Tyverialarm på"
       },
       "getable": true,
       "setable": false,
@@ -2598,12 +2821,14 @@
       "insightsTitleTrue": {
         "en": "Theft system armed",
         "nl": "Anti-diefstal systeem ingeschakeld",
-        "de": "Diebstahlsicherung aktiviert"
+        "de": "Diebstahlsicherung aktiviert",
+        "no": "Tyverialarm på"
       },
       "insightsTitleFalse": {
         "en": "Theft system disarmed",
         "nl": "Anti-diefstal systeem uitgeschakeld",
-        "de": "Diebstahlsicherung deaktiviert"
+        "de": "Diebstahlsicherung deaktiviert",
+        "no": "Tyverialarm av"
       }
     },
     "time_geofence_last_event": {
@@ -2611,7 +2836,8 @@
       "title": {
         "en": "Last Geofence Time",
         "nl": "Laatste Geofence Tijd",
-        "de": "Letzte Geofence Zeit"
+        "de": "Letzte Geofence Zeit",
+        "no": "Tidspunkt for siste sonehendelse"
       },
       "getable": true,
       "setable": false,
@@ -2623,7 +2849,8 @@
       "title": {
         "en": "Tire Pressure",
         "nl": "Bandenspanning",
-        "de": "Reifendruck"
+        "de": "Reifendruck",
+        "no": "Dekktrykk"
       },
       "units": {
         "en": "bar"
@@ -2641,7 +2868,8 @@
       "title": {
         "en": "Window, Front Left",
         "nl": "Raam, Links Voor",
-        "de": "Fenster, Vorne Links"
+        "de": "Fenster, Vorne Links",
+        "no": "Vindu, venstre foran"
       },
       "getable": true,
       "setable": false,
@@ -2653,7 +2881,8 @@
       "title": {
         "en": "Window, Front Right",
         "nl": "Raam, Rechts Voor",
-        "de": "Fenster, Vorne Rechts"
+        "de": "Fenster, Vorne Rechts",
+        "no": "Vindu, høyre foran"
       },
       "getable": true,
       "setable": false,
@@ -2665,7 +2894,8 @@
       "title": {
         "en": "Window, Rear Left",
         "nl": "Raam, Links Achter",
-        "de": "Fenster, Hinten Links"
+        "de": "Fenster, Hinten Links",
+        "no": "Vindu, venstre bak"
       },
       "getable": true,
       "setable": false,
@@ -2677,7 +2907,8 @@
       "title": {
         "en": "Window, Rear Right",
         "nl": "Raam, Rechts Achter",
-        "de": "Fenster, Hinten Rechts"
+        "de": "Fenster, Hinten Rechts",
+        "no": "Vindu, høyre bak"
       },
       "getable": true,
       "setable": false,
@@ -2689,7 +2920,8 @@
       "title": {
         "en": "Sunroof Status",
         "nl": "Schuifdak Status",
-        "de": "Schiebedach Status"
+        "de": "Schiebedach Status",
+        "no": "Soltak"
       },
       "getable": true,
       "setable": false,

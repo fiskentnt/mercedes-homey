@@ -3,7 +3,8 @@
   "title": {
     "en": "Parking Brake",
     "nl": "Handrem",
-    "de": "Feststellbremse"
+    "de": "Feststellbremse",
+    "no": "Parkeringsbrems"
   },
   "getable": true,
   "setable": false,

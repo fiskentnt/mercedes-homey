@@ -4,7 +4,8 @@
   "title": {
     "en": "Vehicle was unlocked",
     "nl": "Voertuig is ontgrendeld",
-    "de": "Fahrzeug wurde entriegelt"
+    "de": "Fahrzeug wurde entriegelt",
+    "no": "Bilen ble låst opp"
   },
   "args": [
     {

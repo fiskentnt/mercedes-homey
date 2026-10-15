@@ -3,7 +3,8 @@
   "title": {
     "en": "Vehicle entered geofence zone",
     "nl": "Voertuig heeft geofence zone betreden",
-    "de": "Fahrzeug hat Geofence-Zone betreten"
+    "de": "Fahrzeug hat Geofence-Zone betreten",
+    "no": "Bilen kjørte inn i en sone"
   },
   "args": [
     {
@@ -19,7 +20,8 @@
       "title": {
         "en": "Zone name",
         "nl": "Zone naam",
-        "de": "Zonenname"
+        "de": "Zonenname",
+        "no": "Sonenavn"
       },
       "example": "Home"
     }

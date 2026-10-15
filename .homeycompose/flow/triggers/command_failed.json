@@ -3,12 +3,14 @@
   "title": {
     "en": "Vehicle command failed",
     "nl": "Voertuigopdracht mislukt",
-    "de": "Fahrzeugbefehl fehlgeschlagen"
+    "de": "Fahrzeugbefehl fehlgeschlagen",
+    "no": "Bilen utførte ikke en kommando"
   },
   "hint": {
     "en": "Triggers when the car reports that a command did not complete. Mercedes confirms this about 12 seconds after the command is sent, which is after the action card has already finished, so this is how a late failure becomes visible.",
     "nl": "Wordt geactiveerd wanneer de auto meldt dat een opdracht niet is voltooid. Mercedes bevestigt dit ongeveer 12 seconden na verzending, nadat de actiekaart al klaar is.",
-    "de": "Wird ausgelöst, wenn das Fahrzeug meldet, dass ein Befehl nicht ausgeführt wurde. Mercedes bestätigt dies etwa 12 Sekunden nach dem Senden, also nachdem die Aktionskarte bereits beendet ist."
+    "de": "Wird ausgelöst, wenn das Fahrzeug meldet, dass ein Befehl nicht ausgeführt wurde. Mercedes bestätigt dies etwa 12 Sekunden nach dem Senden, also nachdem die Aktionskarte bereits beendet ist.",
+    "no": "Utløses når bilen melder at en kommando ikke ble fullført. Mercedes bekrefter dette omtrent 12 sekunder etter at kommandoen er sendt, altså etter at handlingskortet allerede er ferdig. Det er slik en sen feil blir synlig."
   },
   "args": [
     {
@@ -24,7 +26,8 @@
       "title": {
         "en": "Command",
         "nl": "Opdracht",
-        "de": "Befehl"
+        "de": "Befehl",
+        "no": "Kommando"
       },
       "example": "windowsClose"
     },
@@ -34,7 +37,8 @@
       "title": {
         "en": "Reason",
         "nl": "Reden",
-        "de": "Grund"
+        "de": "Grund",
+        "no": "Årsak"
       },
       "example": "CMD_TIMEOUT"
     }

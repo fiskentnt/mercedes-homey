@@ -3,7 +3,8 @@
   "title": {
     "en": "Connector Status",
     "nl": "Connectorstatus",
-    "de": "Anschlussstatus"
+    "de": "Anschlussstatus",
+    "no": "Ladekabelstatus"
   },
   "getable": true,
   "setable": false,

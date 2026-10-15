@@ -3,7 +3,8 @@
   "title": {
     "en": "Departure Time Mode",
     "nl": "Vertrektijd Modus",
-    "de": "Abfahrtszeit Modus"
+    "de": "Abfahrtszeit Modus",
+    "no": "Avreisetidspunkt, modus"
   },
   "getable": true,
   "setable": false,

@@ -3,7 +3,8 @@
   "title": {
     "en": "Door, Rear Left",
     "nl": "Deur, Links Achter",
-    "de": "Tür, Hinten Links"
+    "de": "Tür, Hinten Links",
+    "no": "Dør, venstre bak"
   },
   "getable": true,
   "setable": false,

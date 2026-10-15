@@ -3,7 +3,8 @@
   "title": {
     "en": "Charge Program",
     "nl": "Laadprogramma",
-    "de": "Ladeprogramm"
+    "de": "Ladeprogramm",
+    "no": "Ladeprogram"
   },
   "getable": true,
   "setable": false,

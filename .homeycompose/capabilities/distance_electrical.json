@@ -3,7 +3,8 @@
   "title": {
     "en": "Electric Distance",
     "nl": "Elektrische Afstand",
-    "de": "Elektrische Strecke"
+    "de": "Elektrische Strecke",
+    "no": "Elektrisk kjørt strekning fra start"
   },
   "units": {
     "en": "km"

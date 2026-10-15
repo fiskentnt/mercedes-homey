@@ -3,17 +3,20 @@
   "title": {
     "en": "Vehicle is !{{charging|not charging}}",
     "nl": "Voertuig is !{{aan het opladen|niet aan het opladen}}",
-    "de": "Fahrzeug !{{lädt|lädt nicht}}"
+    "de": "Fahrzeug !{{lädt|lädt nicht}}",
+    "no": "Bilen !{{lader|lader ikke}}"
   },
   "titleFormatted": {
     "en": "Vehicle is !{{charging|not charging}}",
     "nl": "Voertuig is !{{aan het opladen|niet aan het opladen}}",
-    "de": "Fahrzeug !{{lädt|lädt nicht}}"
+    "de": "Fahrzeug !{{lädt|lädt nicht}}",
+    "no": "Bilen !{{lader|lader ikke}}"
   },
   "hint": {
     "en": "This card checks if the vehicle is currently charging.",
     "nl": "Deze kaart controleert of het voertuig momenteel aan het opladen is.",
-    "de": "Diese Karte prüft, ob das Fahrzeug gerade lädt."
+    "de": "Diese Karte prüft, ob das Fahrzeug gerade lädt.",
+    "no": "Sjekker om bilen lader."
   },
   "args": [
     {

@@ -3,7 +3,8 @@
   "title": {
     "en": "Ignition on",
     "nl": "Ontsteking aan",
-    "de": "Zündung an"
+    "de": "Zündung an",
+    "no": "Tenning på"
   },
   "getable": true,
   "setable": false,
@@ -12,11 +13,13 @@
   "insightsTitleTrue": {
     "en": "Ignition turned on",
     "nl": "Ontsteking aan",
-    "de": "Zündung eingeschaltet"
+    "de": "Zündung eingeschaltet",
+    "no": "Tenning slått på"
   },
   "insightsTitleFalse": {
     "en": "Ignition turned off",
     "nl": "Ontsteking uit",
-    "de": "Zündung ausgeschaltet"
+    "de": "Zündung ausgeschaltet",
+    "no": "Tenning slått av"
   }
 }

@@ -3,7 +3,8 @@
   "title": {
     "en": "Charging started",
     "nl": "Opladen gestart",
-    "de": "Laden gestartet"
+    "de": "Laden gestartet",
+    "no": "Lading startet"
   },
   "args": [
     {
@@ -19,7 +20,8 @@
       "title": {
         "en": "Charging power",
         "nl": "Laadvermogen",
-        "de": "Ladeleistung"
+        "de": "Ladeleistung",
+        "no": "Ladeeffekt"
       },
       "example": 11
     }

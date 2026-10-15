@@ -3,7 +3,8 @@
   "title": {
     "en": "Tire Pressure",
     "nl": "Bandenspanning",
-    "de": "Reifendruck"
+    "de": "Reifendruck",
+    "no": "Dekktrykk"
   },
   "units": {
     "en": "bar"

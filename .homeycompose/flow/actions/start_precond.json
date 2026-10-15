@@ -2,12 +2,14 @@
   "title": {
     "en": "Start preconditioning",
     "nl": "Start voorklimatisering",
-    "de": "Vorklimatisierung starten"
+    "de": "Vorklimatisierung starten",
+    "no": "Aktiver forvarming"
   },
   "hint": {
     "en": "Starts the electric climate control (preconditioning) for the vehicle. Works best when plugged in.",
     "nl": "Start de elektrische klimaatregeling (voorklimatisering) voor het voertuig. Werkt het beste wanneer aangesloten.",
-    "de": "Startet die elektrische Klimaanlage (Vorklimatisierung) für das Fahrzeug. Funktioniert am besten bei angeschlossenem Ladekabel."
+    "de": "Startet die elektrische Klimaanlage (Vorklimatisierung) für das Fahrzeug. Funktioniert am besten bei angeschlossenem Ladekabel.",
+    "no": "Starter forvarmingen (elektrisk klimaregulering) av bilen. Fungerer best med ladekabelen tilkoblet."
   },
   "args": [
     {

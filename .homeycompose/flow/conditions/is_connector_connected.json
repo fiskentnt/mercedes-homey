@@ -3,15 +3,18 @@
   "title": {
     "en": "Connector is !{{connected|not connected}}",
     "nl": "Connector is !{{aangesloten|niet aangesloten}}",
-    "de": "Stecker ist !{{verbunden|nicht verbunden}}"
+    "de": "Stecker ist !{{verbunden|nicht verbunden}}",
+    "no": "Ladekabel !{{er tilkoblet|er ikke tilkoblet}}"
   },
   "titleFormatted": {
     "en": "Connector is !{{connected|not connected}}",
     "nl": "Connector is !{{aangesloten|niet aangesloten}}",
-    "de": "Stecker ist !{{verbunden|nicht verbunden}}"
+    "de": "Stecker ist !{{verbunden|nicht verbunden}}",
+    "no": "Ladekabel !{{er tilkoblet|er ikke tilkoblet}}"
   },
   "hint": {
-    "en": "Checks if the charge connector is currently plugged in."
+    "en": "Checks if the charge connector is currently plugged in.",
+    "no": "Sjekker om ladekabelen er koblet til."
   },
   "args": [
     {

@@ -3,7 +3,8 @@
   "title": {
     "en": "Start climate control",
     "nl": "Start klimaatregeling",
-    "de": "Klimatisierung starten"
+    "de": "Klimatisierung starten",
+    "no": "Aktiver klimaregulering"
   },
   "args": [
     {

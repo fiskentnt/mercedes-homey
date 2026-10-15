@@ -3,7 +3,8 @@
   "title": {
     "en": "Climate Setpoint",
     "nl": "Ingestelde temperatuur",
-    "de": "Solltemperatur"
+    "de": "Solltemperatur",
+    "no": "Ønsket temperatur"
   },
   "units": {
     "en": "°C"

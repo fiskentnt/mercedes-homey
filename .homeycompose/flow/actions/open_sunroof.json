@@ -2,17 +2,20 @@
   "title": {
     "en": "Open sunroof",
     "nl": "Open schuifdak",
-    "de": "Schiebedach öffnen"
+    "de": "Schiebedach öffnen",
+    "no": "Åpne soltaket"
   },
   "titleFormatted": {
     "en": "Open the sunroof",
     "nl": "Open het schuifdak",
-    "de": "Schiebedach öffnen"
+    "de": "Schiebedach öffnen",
+    "no": "Åpne soltaket"
   },
   "hint": {
     "en": "Opens the sunroof. Requires PIN configuration in device settings.",
     "nl": "Opent het schuifdak. PIN-configuratie in apparaatinstellingen vereist.",
-    "de": "Öffnet das Schiebedach. Erfordert PIN-Konfiguration in den Geräteeinstellungen."
+    "de": "Öffnet das Schiebedach. Erfordert PIN-Konfiguration in den Geräteeinstellungen.",
+    "no": "Åpner soltaket. Krever at PIN er satt i enhetsinnstillingene."
   },
   "args": [
     {

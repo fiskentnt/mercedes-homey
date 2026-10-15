@@ -3,7 +3,8 @@
   "title": {
     "en": "Departure Time",
     "nl": "Vertrektijd",
-    "de": "Abfahrtszeit"
+    "de": "Abfahrtszeit",
+    "no": "Avreisetidspunkt"
   },
   "getable": true,
   "setable": false,

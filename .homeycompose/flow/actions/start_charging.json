@@ -4,7 +4,8 @@
   "title": {
     "en": "Resume charging",
     "nl": "Hervat opladen",
-    "de": "Laden fortsetzen"
+    "de": "Laden fortsetzen",
+    "no": "Fortsett lading"
   },
   "args": [
     {

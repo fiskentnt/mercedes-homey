@@ -2,17 +2,20 @@
   "title": {
     "en": "Sound horn",
     "nl": "Claxonneer",
-    "de": "Hupe betätigen"
+    "de": "Hupe betätigen",
+    "no": "Tut med hornet"
   },
   "titleFormatted": {
     "en": "Sound horn ([[mode]])",
     "nl": "Claxonneer ([[mode]])",
-    "de": "Hupe betätigen ([[mode]])"
+    "de": "Hupe betätigen ([[mode]])",
+    "no": "Tut med hornet ([[mode]])"
   },
   "hint": {
     "en": "Sounds the vehicle's horn. Use with care as this may disturb others.",
     "nl": "Laat de claxon van het voertuig klinken. Gebruik met zorg, dit kan anderen storen.",
-    "de": "Betätigt die Fahrzeughupe. Mit Vorsicht verwenden, da dies andere stören kann."
+    "de": "Betätigt die Fahrzeughupe. Mit Vorsicht verwenden, da dies andere stören kann.",
+    "no": "Tuter med bilens horn. Bruk det med omtanke, det kan forstyrre andre."
   },
   "args": [
     {
@@ -26,7 +29,8 @@
       "title": {
         "en": "Mode",
         "nl": "Modus",
-        "de": "Modus"
+        "de": "Modus",
+        "no": "Modus"
       },
       "values": [
         {
@@ -34,7 +38,8 @@
           "label": {
             "en": "Horn and lights",
             "nl": "Claxon en lichten",
-            "de": "Hupe und Lichter"
+            "de": "Hupe und Lichter",
+            "no": "Horn og lys"
           }
         },
         {
@@ -42,7 +47,8 @@
           "label": {
             "en": "Horn only",
             "nl": "Alleen claxon",
-            "de": "Nur Hupe"
+            "de": "Nur Hupe",
+            "no": "Bare horn"
           }
         },
         {
@@ -50,7 +56,8 @@
           "label": {
             "en": "Panic alarm",
             "nl": "Paniek alarm",
-            "de": "Panikalarm"
+            "de": "Panikalarm",
+            "no": "Panikkalarm"
           }
         }
       ]

@@ -3,7 +3,8 @@
   "title": {
     "en": "Connector Connected",
     "nl": "Connector aangesloten",
-    "de": "Stecker verbunden"
+    "de": "Stecker verbunden",
+    "no": "Ladekabel tilkoblet"
   },
   "getable": true,
   "setable": false,

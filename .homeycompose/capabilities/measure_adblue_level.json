@@ -3,12 +3,14 @@
   "title": {
     "en": "AdBlue Level",
     "nl": "AdBlue Niveau",
-    "de": "AdBlue Füllstand"
+    "de": "AdBlue Füllstand",
+    "no": "AdBlue-nivå"
   },
   "label": {
     "en": "AdBlue",
     "nl": "AdBlue",
-    "de": "AdBlue"
+    "de": "AdBlue",
+    "no": "AdBlue"
   },
   "units": {
     "en": "%"

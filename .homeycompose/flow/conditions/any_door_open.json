@@ -3,17 +3,20 @@
   "title": {
     "en": "Any door is !{{open|closed}}",
     "nl": "Een deur is !{{open|gesloten}}",
-    "de": "Eine Tür ist !{{offen|geschlossen}}"
+    "de": "Eine Tür ist !{{offen|geschlossen}}",
+    "no": "!{{En dør er åpen|Alle dører er lukket}}"
   },
   "titleFormatted": {
     "en": "Any door is !{{open|closed}}",
     "nl": "Een deur is !{{open|gesloten}}",
-    "de": "Eine Tür ist !{{offen|geschlossen}}"
+    "de": "Eine Tür ist !{{offen|geschlossen}}",
+    "no": "!{{En dør er åpen|Alle dører er lukket}}"
   },
   "hint": {
     "en": "This card checks if any door (including trunk and hood) is open.",
     "nl": "Deze kaart controleert of een deur (inclusief kofferbak en motorkap) open is.",
-    "de": "Diese Karte prüft, ob eine Tür (einschließlich Kofferraum und Motorhaube) geöffnet ist."
+    "de": "Diese Karte prüft, ob eine Tür (einschließlich Kofferraum und Motorhaube) geöffnet ist.",
+    "no": "Sjekker om en dør er åpen, også bagasjerom og motorpanser."
   },
   "args": [
     {

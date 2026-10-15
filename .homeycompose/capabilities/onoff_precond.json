@@ -3,7 +3,8 @@
   "title": {
     "en": "Preconditioning",
     "nl": "Voorconditionering",
-    "de": "Vorklimatisierung"
+    "de": "Vorklimatisierung",
+    "no": "Forvarming"
   },
   "getable": true,
   "setable": false,

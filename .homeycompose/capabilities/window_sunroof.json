@@ -3,7 +3,8 @@
   "title": {
     "en": "Sunroof Status",
     "nl": "Schuifdak Status",
-    "de": "Schiebedach Status"
+    "de": "Schiebedach Status",
+    "no": "Soltak"
   },
   "getable": true,
   "setable": false,

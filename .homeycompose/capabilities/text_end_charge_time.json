@@ -3,9 +3,10 @@
   "title": {
     "en": "End of Charge Time",
     "nl": "Eindtijd Laden",
-    "de": "Ladeende Zeit"
+    "de": "Ladeende Zeit",
+    "no": "Lading ferdig kl."
   },
-  "label": { "en": "End of Charge", "nl": "Eindtijd Laden", "de": "Ladeende" },
+  "label": { "en": "End of Charge", "nl": "Eindtijd Laden", "de": "Ladeende", "no": "Lading ferdig" },
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

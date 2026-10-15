@@ -3,7 +3,8 @@
   "title": {
     "en": "Last Geofence Zone",
     "nl": "Laatste Geofence Zone",
-    "de": "Letzte Geofence Zone"
+    "de": "Letzte Geofence Zone",
+    "no": "Siste sone"
   },
   "getable": true,
   "setable": false,

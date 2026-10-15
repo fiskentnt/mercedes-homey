@@ -3,7 +3,8 @@
   "title": {
     "en": "Longitude",
     "nl": "Lengtegraad",
-    "de": "Längengrad"
+    "de": "Längengrad",
+    "no": "Lengdegrad"
   },
   "decimals": 6,
   "icon": "/assets/icons/longitude.svg",

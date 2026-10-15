@@ -3,7 +3,8 @@
   "title": {
     "en": "Theft system armed",
     "nl": "Anti-diefstal systeem ingeschakeld",
-    "de": "Diebstahlsicherung aktiviert"
+    "de": "Diebstahlsicherung aktiviert",
+    "no": "Tyverialarm på"
   },
   "getable": true,
   "setable": false,
@@ -13,11 +14,13 @@
   "insightsTitleTrue": {
     "en": "Theft system armed",
     "nl": "Anti-diefstal systeem ingeschakeld",
-    "de": "Diebstahlsicherung aktiviert"
+    "de": "Diebstahlsicherung aktiviert",
+    "no": "Tyverialarm på"
   },
   "insightsTitleFalse": {
     "en": "Theft system disarmed",
     "nl": "Anti-diefstal systeem uitgeschakeld",
-    "de": "Diebstahlsicherung deaktiviert"
+    "de": "Diebstahlsicherung deaktiviert",
+    "no": "Tyverialarm av"
   }
 }

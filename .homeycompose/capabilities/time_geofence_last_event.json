@@ -3,7 +3,8 @@
   "title": {
     "en": "Last Geofence Time",
     "nl": "Laatste Geofence Tijd",
-    "de": "Letzte Geofence Zeit"
+    "de": "Letzte Geofence Zeit",
+    "no": "Tidspunkt for siste sonehendelse"
   },
   "getable": true,
   "setable": false,

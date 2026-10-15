@@ -3,7 +3,8 @@
   "title": {
     "en": "Charging completed",
     "nl": "Opladen voltooid",
-    "de": "Laden abgeschlossen"
+    "de": "Laden abgeschlossen",
+    "no": "Lading fullført"
   },
   "args": [
     {
@@ -19,7 +20,8 @@
       "title": {
         "en": "Battery level",
         "nl": "Batterijniveau",
-        "de": "Batteriestand"
+        "de": "Batteriestand",
+        "no": "Batterinivå"
       },
       "example": 100
     }

@@ -3,7 +3,8 @@
   "title": {
     "en": "Stop climate control",
     "nl": "Stop klimaatregeling",
-    "de": "Klimatisierung stoppen"
+    "de": "Klimatisierung stoppen",
+    "no": "Deaktiver klimaregulering"
   },
   "args": [
     {

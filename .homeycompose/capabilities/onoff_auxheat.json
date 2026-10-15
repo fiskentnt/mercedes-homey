@@ -3,7 +3,8 @@
   "title": {
     "en": "Auxiliary heating",
     "nl": "Standverwarming",
-    "de": "Standheizung"
+    "de": "Standheizung",
+    "no": "Parkeringsvarmer"
   },
   "getable": true,
   "setable": false,
@@ -13,11 +14,13 @@
   "insightsTitleTrue": {
     "en": "Auxiliary heating on",
     "nl": "Standverwarming aan",
-    "de": "Standheizung an"
+    "de": "Standheizung an",
+    "no": "Parkeringsvarmer på"
   },
   "insightsTitleFalse": {
     "en": "Auxiliary heating off",
     "nl": "Standverwarming uit",
-    "de": "Standheizung aus"
+    "de": "Standheizung aus",
+    "no": "Parkeringsvarmer av"
   }
 }

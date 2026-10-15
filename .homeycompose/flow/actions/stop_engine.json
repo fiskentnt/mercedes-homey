@@ -3,7 +3,8 @@
   "title": {
     "en": "Stop engine",
     "nl": "Stop motor",
-    "de": "Motor stoppen"
+    "de": "Motor stoppen",
+    "no": "Stopp motoren"
   },
   "args": [
     {

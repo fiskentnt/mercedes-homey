@@ -2,17 +2,20 @@
   "title": {
     "en": "Tilt sunroof",
     "nl": "Kantel schuifdak",
-    "de": "Schiebedach kippen"
+    "de": "Schiebedach kippen",
+    "no": "Vipp soltaket"
   },
   "titleFormatted": {
     "en": "Tilt the sunroof",
     "nl": "Kantel het schuifdak",
-    "de": "Schiebedach kippen"
+    "de": "Schiebedach kippen",
+    "no": "Vipp soltaket"
   },
   "hint": {
     "en": "Tilts/lifts the sunroof for ventilation.",
     "nl": "Kantelt het schuifdak voor ventilatie.",
-    "de": "Kippt das Schiebedach zur Belüftung."
+    "de": "Kippt das Schiebedach zur Belüftung.",
+    "no": "Vipper soltaket opp for lufting."
   },
   "args": [
     {

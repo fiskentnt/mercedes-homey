@@ -3,12 +3,14 @@
   "title": {
     "en": "Charge Power",
     "nl": "Laadvermogen",
-    "de": "Ladeleistung"
+    "de": "Ladeleistung",
+    "no": "Ladeeffekt"
   },
   "label": {
     "en": "Charge Power",
     "nl": "Laadvermogen",
-    "de": "Ladeleistung"
+    "de": "Ladeleistung",
+    "no": "Ladeeffekt"
   },
   "units": {
     "en": "kW"

@@ -3,7 +3,8 @@
   "title": {
     "en": "Weekly Departure Times",
     "nl": "Wekelijkse vertrektijden",
-    "de": "Wöchentliche Abfahrtszeiten"
+    "de": "Wöchentliche Abfahrtszeiten",
+    "no": "Ukentlige avreisetidspunkter"
   },
   "getable": true,
   "setable": false,

@@ -3,17 +3,20 @@
   "title": {
     "en": "Engine is !{{running|stopped}}",
     "nl": "Motor is !{{aan|uit}}",
-    "de": "Motor ist !{{an|aus}}"
+    "de": "Motor ist !{{an|aus}}",
+    "no": "Motor !{{på|av}}"
   },
   "titleFormatted": {
     "en": "Engine is !{{running|stopped}}",
     "nl": "Motor is !{{aan|uit}}",
-    "de": "Motor ist !{{an|aus}}"
+    "de": "Motor ist !{{an|aus}}",
+    "no": "Motor !{{på|av}}"
   },
   "hint": {
     "en": "This card checks if the vehicle engine is running.",
     "nl": "Deze kaart controleert of de motor van het voertuig draait.",
-    "de": "Diese Karte prüft, ob der Fahrzeugmotor läuft."
+    "de": "Diese Karte prüft, ob der Fahrzeugmotor läuft.",
+    "no": "Sjekker om motoren er på."
   },
   "args": [
     {

@@ -3,7 +3,8 @@
   "title": {
     "en": "Trip Distance",
     "nl": "Ritafstand",
-    "de": "Fahrtstrecke"
+    "de": "Fahrtstrecke",
+    "no": "Kjørt strekning fra start"
   },
   "units": {
     "en": "km"

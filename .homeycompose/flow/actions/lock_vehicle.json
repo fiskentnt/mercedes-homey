@@ -3,7 +3,8 @@
   "title": {
     "en": "Lock vehicle",
     "nl": "Vergrendel voertuig",
-    "de": "Fahrzeug verriegeln"
+    "de": "Fahrzeug verriegeln",
+    "no": "Lås bilen"
   },
   "args": [
     {

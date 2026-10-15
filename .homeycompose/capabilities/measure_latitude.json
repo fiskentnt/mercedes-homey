@@ -3,7 +3,8 @@
   "title": {
     "en": "Latitude",
     "nl": "Breedtegraad",
-    "de": "Breitengrad"
+    "de": "Breitengrad",
+    "no": "Breddegrad"
   },
   "decimals": 6,
   "icon": "/assets/icons/latitude.svg",

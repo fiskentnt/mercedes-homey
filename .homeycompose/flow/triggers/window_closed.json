@@ -3,7 +3,8 @@
   "title": {
     "en": "A window was closed",
     "nl": "Een raam is gesloten",
-    "de": "Ein Fenster wurde geschlossen"
+    "de": "Ein Fenster wurde geschlossen",
+    "no": "Et vindu ble lukket"
   },
   "args": [
     {
@@ -19,7 +20,8 @@
       "title": {
         "en": "Window",
         "nl": "Raam",
-        "de": "Fenster"
+        "de": "Fenster",
+        "no": "Vindu"
       },
       "example": "front_left"
     }

@@ -3,7 +3,8 @@
   "title": {
     "en": "Hood",
     "nl": "Motorkap",
-    "de": "Motorhaube"
+    "de": "Motorhaube",
+    "no": "Motorpanser"
   },
   "getable": true,
   "setable": false,

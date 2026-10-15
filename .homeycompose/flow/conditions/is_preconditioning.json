@@ -3,17 +3,20 @@
   "title": {
     "en": "Preconditioning is !{{active|inactive}}",
     "nl": "Voorconditionering is !{{actief|inactief}}",
-    "de": "Vorklimatisierung ist !{{aktiv|inaktiv}}"
+    "de": "Vorklimatisierung ist !{{aktiv|inaktiv}}",
+    "no": "Forvarming !{{på|av}}"
   },
   "titleFormatted": {
     "en": "Preconditioning is !{{active|inactive}}",
     "nl": "Voorconditionering is !{{actief|inactief}}",
-    "de": "Vorklimatisierung ist !{{aktiv|inaktiv}}"
+    "de": "Vorklimatisierung ist !{{aktiv|inaktiv}}",
+    "no": "Forvarming !{{på|av}}"
   },
   "hint": {
     "en": "This card checks if the vehicle's preconditioning/climate control is currently active.",
     "nl": "Deze kaart controleert of de voorconditionering/klimaatregeling van het voertuig momenteel actief is.",
-    "de": "Diese Karte prüft, ob die Vorklimatisierung des Fahrzeugs gerade aktiv ist."
+    "de": "Diese Karte prüft, ob die Vorklimatisierung des Fahrzeugs gerade aktiv ist.",
+    "no": "Sjekker om forvarming eller klimaregulering er på."
   },
   "args": [
     {

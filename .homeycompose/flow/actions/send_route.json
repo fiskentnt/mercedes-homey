@@ -2,17 +2,20 @@
   "title": {
     "en": "Send route to car",
     "nl": "Stuur route naar auto",
-    "de": "Route an Auto senden"
+    "de": "Route an Auto senden",
+    "no": "Send rute til bilen"
   },
   "titleFormatted": {
     "en": "Send route [[title]] ([[latitude]], [[longitude]])",
     "nl": "Stuur route [[title]] ([[latitude]], [[longitude]])",
-    "de": "Route [[title]] senden ([[latitude]], [[longitude]])"
+    "de": "Route [[title]] senden ([[latitude]], [[longitude]])",
+    "no": "Send rute [[title]] ([[latitude]], [[longitude]])"
   },
   "hint": {
     "en": "Sends a destination to the vehicle's navigation system.",
     "nl": "Stuurt een bestemming naar het navigatiesysteem van het voertuig.",
-    "de": "Sendet ein Ziel an das Navigationssystem des Fahrzeugs."
+    "de": "Sendet ein Ziel an das Navigationssystem des Fahrzeugs.",
+    "no": "Sender et reisemål til bilens navigasjonssystem."
   },
   "args": [
     {
@@ -26,12 +29,14 @@
       "title": {
         "en": "Destination name",
         "nl": "Bestemmingsnaam",
-        "de": "Zielname"
+        "de": "Zielname",
+        "no": "Navn på reisemål"
       },
       "placeholder": {
         "en": "Home",
         "nl": "Thuis",
-        "de": "Zuhause"
+        "de": "Zuhause",
+        "no": "Hjem"
       }
     },
     {
@@ -40,12 +45,14 @@
       "title": {
         "en": "Latitude",
         "nl": "Breedtegraad",
-        "de": "Breitengrad"
+        "de": "Breitengrad",
+        "no": "Breddegrad"
       },
       "placeholder": {
         "en": "52.3676",
         "nl": "52.3676",
-        "de": "52.3676"
+        "de": "52.3676",
+        "no": "59.9139"
       }
     },
     {
@@ -54,12 +61,14 @@
       "title": {
         "en": "Longitude",
         "nl": "Lengtegraad",
-        "de": "Längengrad"
+        "de": "Längengrad",
+        "no": "Lengdegrad"
       },
       "placeholder": {
         "en": "4.9041",
         "nl": "4.9041",
-        "de": "4.9041"
+        "de": "4.9041",
+        "no": "10.7522"
       }
     }
   ]

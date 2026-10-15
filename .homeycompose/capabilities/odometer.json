@@ -3,7 +3,8 @@
   "title": {
     "en": "Odometer",
     "nl": "Kilometerstand",
-    "de": "Kilometerstand"
+    "de": "Kilometerstand",
+    "no": "Kilometerstand"
   },
   "units": {
     "en": "km"

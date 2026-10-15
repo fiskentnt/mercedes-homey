@@ -3,7 +3,8 @@
   "title": {
     "en": "Warning light activated",
     "nl": "Waarschuwingslampje geactiveerd",
-    "de": "Warnleuchte aktiviert"
+    "de": "Warnleuchte aktiviert",
+    "no": "Varsellampe tent"
   },
   "args": [
     {

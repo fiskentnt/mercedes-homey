@@ -3,7 +3,8 @@
   "title": {
     "en": "Engine running",
     "nl": "Motor draait",
-    "de": "Motor läuft"
+    "de": "Motor läuft",
+    "no": "Motor på"
   },
   "getable": true,
   "setable": false,
@@ -13,11 +14,13 @@
   "insightsTitleTrue": {
     "en": "Engine started",
     "nl": "Motor gestart",
-    "de": "Motor gestartet"
+    "de": "Motor gestartet",
+    "no": "Motor startet"
   },
   "insightsTitleFalse": {
     "en": "Engine stopped",
     "nl": "Motor gestopt",
-    "de": "Motor gestoppt"
+    "de": "Motor gestoppt",
+    "no": "Motor stoppet"
   }
 }

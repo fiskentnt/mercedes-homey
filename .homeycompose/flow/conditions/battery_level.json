@@ -3,17 +3,20 @@
   "title": {
     "en": "Battery level !{{is above|is below}} ...",
     "nl": "Batterijniveau !{{is boven|is onder}} ...",
-    "de": "Batteriestand !{{ist über|ist unter}} ..."
+    "de": "Batteriestand !{{ist über|ist unter}} ...",
+    "no": "Batterinivå !{{er over|er under}} ..."
   },
   "titleFormatted": {
     "en": "Battery level !{{is above|is below}} [[threshold]]%",
     "nl": "Batterijniveau !{{is boven|is onder}} [[threshold]]%",
-    "de": "Batteriestand !{{ist über|ist unter}} [[threshold]]%"
+    "de": "Batteriestand !{{ist über|ist unter}} [[threshold]]%",
+    "no": "Batterinivå !{{er over|er under}} [[threshold]] %"
   },
   "hint": {
     "en": "This card checks if the battery level is above or below a specified percentage.",
     "nl": "Deze kaart controleert of het batterijniveau boven of onder een opgegeven percentage is.",
-    "de": "Diese Karte prüft, ob der Batteriestand über oder unter einem bestimmten Prozentsatz liegt."
+    "de": "Diese Karte prüft, ob der Batteriestand über oder unter einem bestimmten Prozentsatz liegt.",
+    "no": "Sjekker om batterinivået er over eller under en gitt prosent."
   },
   "args": [
     {
@@ -27,7 +30,8 @@
       "title": {
         "en": "Threshold %",
         "nl": "Drempel %",
-        "de": "Schwellenwert %"
+        "de": "Schwellenwert %",
+        "no": "Grense %"
       },
       "min": 0,
       "max": 100,

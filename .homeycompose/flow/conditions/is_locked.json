@@ -3,17 +3,20 @@
   "title": {
     "en": "Vehicle is !{{locked|unlocked}}",
     "nl": "Voertuig is !{{vergrendeld|ontgrendeld}}",
-    "de": "Fahrzeug ist !{{verriegelt|entriegelt}}"
+    "de": "Fahrzeug ist !{{verriegelt|entriegelt}}",
+    "no": "Bilen er !{{låst|ulåst}}"
   },
   "titleFormatted": {
     "en": "Vehicle is !{{locked|unlocked}}",
     "nl": "Voertuig is !{{vergrendeld|ontgrendeld}}",
-    "de": "Fahrzeug ist !{{verriegelt|entriegelt}}"
+    "de": "Fahrzeug ist !{{verriegelt|entriegelt}}",
+    "no": "Bilen er !{{låst|ulåst}}"
   },
   "hint": {
     "en": "This card checks if the vehicle doors are locked.",
     "nl": "Deze kaart controleert of de voertuigdeuren vergrendeld zijn.",
-    "de": "Diese Karte prüft, ob die Fahrzeugtüren verriegelt sind."
+    "de": "Diese Karte prüft, ob die Fahrzeugtüren verriegelt sind.",
+    "no": "Sjekker om bilen er låst."
   },
   "args": [
     {

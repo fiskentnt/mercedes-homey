@@ -3,7 +3,8 @@
   "title": {
     "en": "Window, Front Left",
     "nl": "Raam, Links Voor",
-    "de": "Fenster, Vorne Links"
+    "de": "Fenster, Vorne Links",
+    "no": "Vindu, venstre foran"
   },
   "getable": true,
   "setable": false,

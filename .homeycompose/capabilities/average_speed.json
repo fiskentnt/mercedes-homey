@@ -3,7 +3,8 @@
   "title": {
     "en": "Average Speed",
     "nl": "Gemiddelde Snelheid",
-    "de": "Durchschnittsgeschwindigkeit"
+    "de": "Durchschnittsgeschwindigkeit",
+    "no": "Gjennomsnittshastighet fra start"
   },
   "units": {
     "en": "km/h"

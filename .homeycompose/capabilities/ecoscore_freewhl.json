@@ -3,7 +3,8 @@
   "title": {
     "en": "Eco Score Freewheel",
     "nl": "Eco Score Vrijloop",
-    "de": "Eco Score Freilauf"
+    "de": "Eco Score Freilauf",
+    "no": "ECO-score frihjul"
   },
   "decimals": 0,
   "min": 0,

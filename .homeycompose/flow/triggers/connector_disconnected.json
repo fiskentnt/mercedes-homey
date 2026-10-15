@@ -3,7 +3,8 @@
   "title": {
     "en": "Charger was disconnected",
     "nl": "Lader is losgekoppeld",
-    "de": "Ladegerät wurde getrennt"
+    "de": "Ladegerät wurde getrennt",
+    "no": "Ladekabel ble koblet fra"
   },
   "args": [
     {

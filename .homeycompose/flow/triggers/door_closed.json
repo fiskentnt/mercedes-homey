@@ -3,7 +3,8 @@
   "title": {
     "en": "A door was closed",
     "nl": "Een deur is gesloten",
-    "de": "Eine Tür wurde geschlossen"
+    "de": "Eine Tür wurde geschlossen",
+    "no": "En dør ble lukket"
   },
   "args": [
     {
@@ -19,7 +20,8 @@
       "title": {
         "en": "Door",
         "nl": "Deur",
-        "de": "Tür"
+        "de": "Tür",
+        "no": "Dør"
       },
       "example": "front_left"
     }

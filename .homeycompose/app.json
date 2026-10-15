@@ -9,12 +9,14 @@
   "name": {
     "en": "Mercedes-Benz",
     "nl": "Mercedes-Benz",
-    "de": "Mercedes-Benz"
+    "de": "Mercedes-Benz",
+    "no": "Mercedes-Benz"
   },
   "description": {
     "en": "Stay connected to your Mercedes-Benz, wherever you are",
     "nl": "Blijf verbonden met je Mercedes-Benz, waar je ook bent",
-    "de": "Bleiben Sie mit Ihrem Mercedes-Benz verbunden, wo auch immer Sie sind"
+    "de": "Bleiben Sie mit Ihrem Mercedes-Benz verbunden, wo auch immer Sie sind",
+    "no": "Hold kontakten med din Mercedes-Benz, uansett hvor du er"
   },
   "category": [
     "appliances"
@@ -24,7 +26,8 @@
       "name": {
         "en": "Car Status",
         "nl": "Auto Status",
-        "de": "Fahrzeugstatus"
+        "de": "Fahrzeugstatus",
+        "no": "Bilstatus"
       },
       "height": 160,
       "api": {

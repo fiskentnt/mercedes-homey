@@ -3,7 +3,8 @@
   "title": {
     "en": "Battery Temperature",
     "nl": "Batterijtemperatuur",
-    "de": "Batterietemperatur"
+    "de": "Batterietemperatur",
+    "no": "Batteritemperatur"
   },
   "units": {
     "en": "°C"

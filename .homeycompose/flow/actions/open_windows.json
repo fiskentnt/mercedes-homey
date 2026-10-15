@@ -3,12 +3,14 @@
   "title": {
     "en": "Open windows",
     "nl": "Open ramen",
-    "de": "Fenster öffnen"
+    "de": "Fenster öffnen",
+    "no": "Åpne vinduene"
   },
   "hint": {
     "en": "Requires PIN to be configured in device settings",
     "nl": "Vereist dat PIN is geconfigureerd in apparaatinstellingen",
-    "de": "Erfordert PIN-Konfiguration in den Geräteeinstellungen"
+    "de": "Erfordert PIN-Konfiguration in den Geräteeinstellungen",
+    "no": "Krever at PIN er satt i enhetsinnstillingene"
   },
   "args": [
     {

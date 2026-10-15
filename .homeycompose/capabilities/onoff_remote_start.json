@@ -3,7 +3,8 @@
   "title": {
     "en": "Remote start",
     "nl": "Afstandsstart",
-    "de": "Fernstart"
+    "de": "Fernstart",
+    "no": "Fjernstart"
   },
   "getable": true,
   "setable": false,
@@ -13,11 +14,13 @@
   "insightsTitleTrue": {
     "en": "Remote start active",
     "nl": "Afstandsstart actief",
-    "de": "Fernstart aktiv"
+    "de": "Fernstart aktiv",
+    "no": "Fjernstart på"
   },
   "insightsTitleFalse": {
     "en": "Remote start inactive",
     "nl": "Afstandsstart inactief",
-    "de": "Fernstart inaktiv"
+    "de": "Fernstart inaktiv",
+    "no": "Fjernstart av"
   }
 }

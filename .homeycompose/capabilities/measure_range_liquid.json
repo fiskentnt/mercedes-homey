@@ -3,12 +3,14 @@
   "title": {
     "en": "Liquid Range",
     "nl": "Brandstof Bereik",
-    "de": "Kraftstoff Reichweite"
+    "de": "Kraftstoff Reichweite",
+    "no": "Rekkevidde (drivstoff)"
   },
   "label": {
     "en": "Range (Fuel)",
     "nl": "Bereik (Brandstof)",
-    "de": "Reichweite (Kraftstoff)"
+    "de": "Reichweite (Kraftstoff)",
+    "no": "Rekkevidde (drivstoff)"
   },
   "units": {
     "en": "km"

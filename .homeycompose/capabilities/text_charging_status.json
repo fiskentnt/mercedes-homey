@@ -3,7 +3,8 @@
   "title": {
     "en": "Charging Status",
     "nl": "Laadstatus",
-    "de": "Ladestatus"
+    "de": "Ladestatus",
+    "no": "Ladestatus"
   },
   "getable": true,
   "setable": false,

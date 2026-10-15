@@ -3,7 +3,8 @@
   "title": {
     "en": "Eco Score Constant",
     "nl": "Eco Score Constant",
-    "de": "Eco Score Konstant"
+    "de": "Eco Score Konstant",
+    "no": "ECO-score jevn kjøring"
   },
   "decimals": 0,
   "min": 0,

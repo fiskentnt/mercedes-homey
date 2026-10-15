@@ -2,17 +2,20 @@
   "title": {
     "en": "Configure seat heating",
     "nl": "Stoelverwarming instellen",
-    "de": "Sitzheizung konfigurieren"
+    "de": "Sitzheizung konfigurieren",
+    "no": "Still inn setevarme"
   },
   "titleFormatted": {
     "en": "Configure seat heating (FL: [[front_left]], FR: [[front_right]], RL: [[rear_left]], RR: [[rear_right]])",
     "nl": "Stoelverwarming instellen (LV: [[front_left]], RV: [[front_right]], LA: [[rear_left]], RA: [[rear_right]])",
-    "de": "Sitzheizung konfigurieren (VL: [[front_left]], VR: [[front_right]], HL: [[rear_left]], HR: [[rear_right]])"
+    "de": "Sitzheizung konfigurieren (VL: [[front_left]], VR: [[front_right]], HL: [[rear_left]], HR: [[rear_right]])",
+    "no": "Still inn setevarme (VF: [[front_left]], HF: [[front_right]], VB: [[rear_left]], HB: [[rear_right]])"
   },
   "hint": {
     "en": "Enables or disables seat heating for each seat during preconditioning.",
     "nl": "Schakelt stoelverwarming voor elke stoel in of uit tijdens voorklimatisering.",
-    "de": "Aktiviert oder deaktiviert die Sitzheizung für jeden Sitz während der Vorklimatisierung."
+    "de": "Aktiviert oder deaktiviert die Sitzheizung für jeden Sitz während der Vorklimatisierung.",
+    "no": "Slår setevarmen på eller av for hvert sete under forvarming."
   },
   "args": [
     {
@@ -26,7 +29,8 @@
       "title": {
         "en": "Front left",
         "nl": "Linksvoor",
-        "de": "Vorne links"
+        "de": "Vorne links",
+        "no": "Venstre foran"
       }
     },
     {
@@ -35,7 +39,8 @@
       "title": {
         "en": "Front right",
         "nl": "Rechtsvoor",
-        "de": "Vorne rechts"
+        "de": "Vorne rechts",
+        "no": "Høyre foran"
       }
     },
     {
@@ -44,7 +49,8 @@
       "title": {
         "en": "Rear left",
         "nl": "Linksachter",
-        "de": "Hinten links"
+        "de": "Hinten links",
+        "no": "Venstre bak"
       }
     },
     {
@@ -53,7 +59,8 @@
       "title": {
         "en": "Rear right",
         "nl": "Rechtsachter",
-        "de": "Hinten rechts"
+        "de": "Hinten rechts",
+        "no": "Høyre bak"
       }
     }
   ]

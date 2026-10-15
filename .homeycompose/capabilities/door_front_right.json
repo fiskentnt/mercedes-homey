@@ -3,7 +3,8 @@
   "title": {
     "en": "Door, Front Right",
     "nl": "Deur, Rechts Voor",
-    "de": "Tür, Vorne Rechts"
+    "de": "Tür, Vorne Rechts",
+    "no": "Dør, høyre foran"
   },
   "getable": true,
   "setable": false,

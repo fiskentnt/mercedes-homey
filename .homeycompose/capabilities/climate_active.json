@@ -3,7 +3,8 @@
   "title": {
     "en": "Climate active",
     "nl": "Klimaat actief",
-    "de": "Klimaanlage aktiv"
+    "de": "Klimaanlage aktiv",
+    "no": "Klimaregulering på"
   },
   "getable": true,
   "setable": true,
@@ -13,11 +14,13 @@
   "insightsTitleTrue": {
     "en": "Climate turned on",
     "nl": "Klimaat aan",
-    "de": "Klimaanlage an"
+    "de": "Klimaanlage an",
+    "no": "Klimaregulering på"
   },
   "insightsTitleFalse": {
     "en": "Climate turned off",
     "nl": "Klimaat uit",
-    "de": "Klimaanlage aus"
+    "de": "Klimaanlage aus",
+    "no": "Klimaregulering av"
   }
 }

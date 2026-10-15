@@ -3,7 +3,8 @@
   "title": {
     "en": "Close windows",
     "nl": "Sluit ramen",
-    "de": "Fenster schließen"
+    "de": "Fenster schließen",
+    "no": "Lukk vinduene"
   },
   "args": [
     {

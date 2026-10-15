@@ -3,7 +3,8 @@
   "title": {
     "en": "Vehicle alarm triggered",
     "nl": "Voertuigalarm geactiveerd",
-    "de": "Fahrzeugalarm ausgelöst"
+    "de": "Fahrzeugalarm ausgelöst",
+    "no": "Tyverialarm utløst"
   },
   "args": [
     {
@@ -19,7 +20,8 @@
       "title": {
         "en": "Reason",
         "nl": "Reden",
-        "de": "Grund"
+        "de": "Grund",
+        "no": "Årsak"
       },
       "example": "DOOR_FRONT_LEFT"
     }

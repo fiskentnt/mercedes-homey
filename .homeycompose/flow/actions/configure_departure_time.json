@@ -2,17 +2,20 @@
   "title": {
     "en": "Set departure time",
     "nl": "Stel vertrektijd in",
-    "de": "Abfahrtszeit einstellen"
+    "de": "Abfahrtszeit einstellen",
+    "no": "Still avreisetidspunkt"
   },
   "titleFormatted": {
     "en": "Set departure time to [[hour]]:[[minute]] ([[mode]])",
     "nl": "Stel vertrektijd in op [[hour]]:[[minute]] ([[mode]])",
-    "de": "Abfahrtszeit auf [[hour]]:[[minute]] einstellen ([[mode]])"
+    "de": "Abfahrtszeit auf [[hour]]:[[minute]] einstellen ([[mode]])",
+    "no": "Still avreisetidspunkt til [[hour]]:[[minute]] ([[mode]])"
   },
   "hint": {
     "en": "Configures the departure time for preconditioning. The vehicle will be ready at this time.",
     "nl": "Configureert de vertrektijd voor voorklimatisering. Het voertuig is klaar op dit tijdstip.",
-    "de": "Konfiguriert die Abfahrtszeit für die Vorklimatisierung. Das Fahrzeug ist zu diesem Zeitpunkt bereit."
+    "de": "Konfiguriert die Abfahrtszeit für die Vorklimatisierung. Das Fahrzeug ist zu diesem Zeitpunkt bereit.",
+    "no": "Stiller avreisetidspunktet for forvarming. Bilen er klar til dette tidspunktet."
   },
   "args": [
     {
@@ -26,7 +29,8 @@
       "title": {
         "en": "Hour",
         "nl": "Uur",
-        "de": "Stunde"
+        "de": "Stunde",
+        "no": "Time"
       },
       "min": 0,
       "max": 23,
@@ -38,7 +42,8 @@
       "title": {
         "en": "Minute",
         "nl": "Minuut",
-        "de": "Minute"
+        "de": "Minute",
+        "no": "Minutt"
       },
       "min": 0,
       "max": 59,
@@ -50,7 +55,8 @@
       "title": {
         "en": "Mode",
         "nl": "Modus",
-        "de": "Modus"
+        "de": "Modus",
+        "no": "Modus"
       },
       "values": [
         {
@@ -58,7 +64,8 @@
           "label": {
             "en": "Disabled",
             "nl": "Uitgeschakeld",
-            "de": "Deaktiviert"
+            "de": "Deaktiviert",
+            "no": "Av"
           }
         },
         {
@@ -66,7 +73,8 @@
           "label": {
             "en": "Single use",
             "nl": "Eenmalig",
-            "de": "Einmalig"
+            "de": "Einmalig",
+            "no": "Én gang"
           }
         },
         {
@@ -74,7 +82,8 @@
           "label": {
             "en": "Weekly",
             "nl": "Wekelijks",
-            "de": "Wöchentlich"
+            "de": "Wöchentlich",
+            "no": "Ukentlig"
           }
         }
       ]

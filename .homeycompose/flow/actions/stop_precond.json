@@ -2,12 +2,14 @@
   "title": {
     "en": "Stop preconditioning",
     "nl": "Stop voorklimatisering",
-    "de": "Vorklimatisierung stoppen"
+    "de": "Vorklimatisierung stoppen",
+    "no": "Deaktiver forvarming"
   },
   "hint": {
     "en": "Stops the electric climate control (preconditioning) for the vehicle.",
     "nl": "Stopt de elektrische klimaatregeling (voorklimatisering) voor het voertuig.",
-    "de": "Stoppt die elektrische Klimaanlage (Vorklimatisierung) für das Fahrzeug."
+    "de": "Stoppt die elektrische Klimaanlage (Vorklimatisierung) für das Fahrzeug.",
+    "no": "Stopper forvarmingen (elektrisk klimaregulering) av bilen."
   },
   "args": [
     {

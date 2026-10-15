@@ -3,7 +3,8 @@
   "title": {
     "en": "Charging stopped",
     "nl": "Opladen gestopt",
-    "de": "Laden gestoppt"
+    "de": "Laden gestoppt",
+    "no": "Lading stoppet"
   },
   "args": [
     {

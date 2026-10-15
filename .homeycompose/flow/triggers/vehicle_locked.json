@@ -4,7 +4,8 @@
   "title": {
     "en": "Vehicle was locked",
     "nl": "Voertuig is vergrendeld",
-    "de": "Fahrzeug wurde verriegelt"
+    "de": "Fahrzeug wurde verriegelt",
+    "no": "Bilen ble låst"
   },
   "args": [
     {

@@ -3,7 +3,8 @@
   "title": {
     "en": "Window, Rear Right",
     "nl": "Raam, Rechts Achter",
-    "de": "Fenster, Hinten Rechts"
+    "de": "Fenster, Hinten Rechts",
+    "no": "Vindu, høyre bak"
   },
   "getable": true,
   "setable": false,
