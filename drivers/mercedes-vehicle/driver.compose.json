@@ -140,7 +140,7 @@
             "en": "How often the app should pull data from the Mercedes API. Lower values provide more frequent updates but may drain your car's 12V battery faster. Recommended: 120-300 seconds.",
             "nl": "Hoe vaak de app gegevens moet ophalen van de Mercedes API. Lagere waarden zorgen voor frequentere updates, maar kunnen de 12V-accu van uw auto sneller leegmaken. Aanbevolen: 120-300 seconden.",
             "de": "Wie oft die App Daten von der Mercedes-API abrufen soll. Niedrigere Werte bieten häufigere Updates, können aber die 12V-Batterie Ihres Autos schneller entladen. Empfohlen: 120-300 Sekunden.",
-            "no": "Hvor ofte appen henter data fra Mercedes. Lavere verdier gir hyppigere oppdateringer, men kan tappe bilens 12 V-batteri raskere. Anbefalt: 120–300 sekunder."
+            "no": "Hvor ofte appen henter data fra Mercedes. Lavere verdier gir hyppigere oppdateringer, men kan tappe bilens 12 V-batteri raskere. Anbefalt: 120-300 sekunder."
           },
           "value": 1800,
           "min": 30,

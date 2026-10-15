@@ -14,6 +14,9 @@ const { execFileSync } = require('node:child_process');
 const root = path.join(__dirname, '..');
 const LANGS = new Set(['en', 'nl', 'de', 'no', 'fr', 'it', 'sv', 'da', 'es', 'pl', 'ru', 'ko', 'ar']);
 // Language-neutral symbols fall back to English; there is nothing to translate.
+// "Use Material Design Icons for the trip figures" - the commit just before
+// "Translate the manifest into Norwegian".
+const BEFORE_TRANSLATION = '363bb0d';
 const SYMBOLS = new Set(['km/h', 'km', 'min', 'kWh/100 km', '%', '°C', 'kW', '°', 'bar']);
 
 function manifestFiles() {
@@ -50,7 +53,10 @@ test('every translatable manifest string has Norwegian', () => {
 test('English, Dutch and German are exactly as they were', () => {
   let before;
   try {
-    before = (file) => JSON.parse(execFileSync('git', ['show', `HEAD:${file}`], { cwd: root, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }));
+    // The last commit before the Norwegian translation: what translating may
+    // not have changed. English written since (new cards, renamed tags) is
+    // new text, not a translation side effect, so it is not held to this.
+    before = (file) => JSON.parse(execFileSync('git', ['show', `${BEFORE_TRANSLATION}:${file}`], { cwd: root, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }));
     before('.homeycompose/app.json');
   } catch (e) {
     return; // not a git checkout: nothing to compare against
@@ -75,7 +81,8 @@ test('English, Dutch and German are exactly as they were', () => {
 });
 
 test('the agreed vocabulary: words ruled out do not appear in Norwegian', () => {
-  const ruledOut = [/aktivert/i, /\binaktiv/i, /kjøretøy/i, /forkondisjonering/i, /klimatisering/i, /bagasjelokk/i, /siden tilbakestilling/i];
+  // No dashes as punctuation in Norwegian either: "tilbakestilt, nyttig", "Nivå (0-4)".
+  const ruledOut = [/aktivert/i, /\binaktiv/i, /kjøretøy/i, /forkondisjonering/i, /klimatisering/i, /bagasjelokk/i, /siden tilbakestilling/i, /[–—]/];
   const offenders = [];
   for (const file of manifestFiles()) {
     const json = JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
