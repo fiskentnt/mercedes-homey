@@ -109,9 +109,10 @@ neither lost nor counted twice. A missing hour means the app was not running.
   a parked car handshakes about 40 times an hour. The health check and the
   staleness warning treat that rest as healthy (`isResting()`).
 - **1001 "Going away" every ~13 minutes.** Mercedes rotates connections. It
-  only shows on a connection held open (ignition on, command hold), and is
-  followed by the same 60 s wait as any other close - not an immediate
-  reconnect.
+  shows on a connection held open (ignition on, command under way or sent
+  < 180 s ago), and while that hold lasts the app reconnects at once, as
+  mbapi2020 does. Only with nothing holding the connection does a 1001 wait
+  the 60 s cycle.
 - **The Flow editor's Test button reports timeouts that never happened.** It
   abandons a run after well under 30 s and blames whichever card it was
   nearest, so any Flow with a delay shows a timeout even though every card
@@ -261,9 +262,15 @@ neither lost nor counted twice. A missing hour means the app was not running.
   (mbapi2020's definition - the `ignition_on` capability also counts 1/2),
   while a command is queued or awaiting its caller, and for 180 s after a
   command is sent (an accepted command that never finishes holds no longer
-  than that); every close of an open connection - idle, 1001, drop - waits
-  60 s before the next handshake; a command skips that wait but never a 429
-  window; ping every 32 s. The 429 ladder clears after 5 min of stable
+  than that); after our own idle close, the next handshake is 60 s later
+  (mbapi2020's `RECONNECT_WATCHDOG_TIMEOUT`); after Mercedes closes it or it
+  drops (1001, 1000, 1006, liveness timeout), it comes back at once while a
+  hold applies - mbapi2020 reconnects at once after *any* server close
+  (`websocket.py` 440-443, 525-544) - but at most once per 60 s, a brake
+  mbapi2020 does not have, against a connection closed straight after it
+  opens; with no hold, 60 s, which is this app's own choice and not
+  mbapi2020's; a command skips any wait but never a 429 window; ping every
+  32 s. The 429 ladder clears after 5 min of stable
   connection (1dab8c4) *or* 5 clean idle cycles in a row - one is not
   enough, that is #83's loop.
 - **A failed upgrade is not a closed connection.** `ws` reports every failed
