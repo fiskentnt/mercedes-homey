@@ -14,5 +14,5 @@
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
-  "icon": "/assets/icons/distance_start.svg"
+  "icon": "/assets/icons/map-marker-distance.svg"
 }
