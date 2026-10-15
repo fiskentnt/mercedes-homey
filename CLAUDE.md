@@ -67,6 +67,36 @@ A command's life:
 Measured: acceptance 59-290 ms, window commands complete in 7.5-12.8 s,
 unlock ~4 s. Faster when the car is already awake.
 
+The idle cycle (1.1.53), on a parked car, repeats every ~90 s:
+
+```
+[WS] Connected to Mercedes WebSocket
+[WS] No data from the car for 30s - closing the connection until it is needed
+[WS] Connection closed while idle - next connection in 60s
+```
+
+Once an hour: `[WS] Connection stats for the last 60 min: handshakes=…
+(open=, 429=, failed=), closes: idle=, 1001=, drop=, other=, commands: …`.
+
+## Reading the 60-day connection timeline
+
+The same counts, by clock hour, are kept for 60 days in `homey.settings`
+(`lib/stats-timeline.js`) and served by `GET /stats`:
+
+```
+npx homey@4 api raw --path /api/app/com.mercedes.mbapi/stats --json
+```
+
+The CLI pinned in `devDependencies` (3.9.x) has no `api` command; 4.x does.
+The endpoint is `"public": false` — Homey has no owner-only option for app
+endpoints, so "not public" means a token for this Homey is required. The
+response carries its own legend (`keys`). Records hold an hour and counters
+only (`t`, `h`, `c`, `i`, `k`) — a test drives the real pipeline with a VIN,
+e-mail, position and token and checks none of them gets in. Counted in
+memory, written hourly and in the app's `onUninit`; the hour in progress is
+stored as `cur` and resumed after a restart in the same hour, so an hour is
+neither lost nor counted twice. A missing hour means the app was not running.
+
 ## Things that look like bugs but are not
 
 - **HTTP 429 on every app restart.** Restarting tears down the old session
@@ -74,8 +104,14 @@ unlock ~4 s. Faster when the car is already awake.
   and reconnects in ~12 s. Expected — and the reason the first backoff window
   is 30 s, not minutes: a long opening window bills every app update for a
   block that was already over.
-- **1001 "Going away" every ~13 minutes.** Mercedes rotates connections;
-  reconnect takes ~150 ms.
+- **The push connection is closed most of the time.** On purpose since
+  1.1.53: closed 30 s after the last frame from the car, back 60 s later, so
+  a parked car handshakes about 40 times an hour. The health check and the
+  staleness warning treat that rest as healthy (`isResting()`).
+- **1001 "Going away" every ~13 minutes.** Mercedes rotates connections. It
+  only shows on a connection held open (ignition on, command hold), and is
+  followed by the same 60 s wait as any other close - not an immediate
+  reconnect.
 - **The Flow editor's Test button reports timeouts that never happened.** It
   abandons a run after well under 30 s and blames whichever card it was
   nearest, so any Flow with a delay shows a timeout even though every card
@@ -215,6 +251,33 @@ unlock ~4 s. Faster when the car is already awake.
   `onoff_charging` stuck true forever and the widget animating a charging
   battery on an unplugged car. Prefer an attribute the car always sends
   (`chargingactive`, `chargingstatus`) over one that disappears.
+- **The push connection idles out, as mbapi2020's does (1.1.53).** Holding
+  it open around the clock - ping every 20 s, the health check reconnecting
+  at once - is the suspected cause of hours-long WebSocket 429 blocks, during
+  which no command (preheat included) gets through. mbapi2020 closes after
+  30 s without data and reconnects 60 s later and is not seen blocked. The
+  rules, all in `lib/websocket.js`: 30 s after the last *frame* (a pong is
+  not data); held open while any car on the account has `ignitionstate` 4
+  (mbapi2020's definition - the `ignition_on` capability also counts 1/2),
+  while a command is queued or awaiting its caller, and for 180 s after a
+  command is sent (an accepted command that never finishes holds no longer
+  than that); every close of an open connection - idle, 1001, drop - waits
+  60 s before the next handshake; a command skips that wait but never a 429
+  window; ping every 32 s. The 429 ladder clears after 5 min of stable
+  connection (1dab8c4) *or* 5 clean idle cycles in a row - one is not
+  enough, that is #83's loop.
+- **A failed upgrade is not a closed connection.** `ws` reports every failed
+  upgrade - 429, 401, 418, ECONNREFUSED, timeout - as `'error'` and then
+  `'close'` 1006, on a socket that never opened, and after a network event the
+  close runs *before* `connect()`'s catch. Ask the `opened` flag set in the
+  `'open'` handler, never `settled`: taking that close for an open
+  connection's put every refusal on the flat 60 s cycle, skipped the failure
+  backoff and the ladder's 30 s first step, and counted refusals as drops. A
+  scripted test socket must fail the same way (error, then close 1006) and
+  deliver refusals from a macrotask (`fromNetwork()` in
+  `test/websocket-idle-cycle.test.js`) - emitted from promise code the order
+  inverts and the bug hides; the real-`ws` tests in
+  `test/websocket-handshake-response.test.js` pin it.
 - **PIN-gated commands** (open windows, open/tilt sunroof) need the PIN in
   device settings. Re-pairing wipes it, along with the widget's device
   selection — the widget stores the Homey device ID and re-pairing mints a
@@ -235,4 +298,14 @@ npx homey app build                   # regenerates app.json from .homeycompose
 
 `require()`ing a driver or device file outside Homey fails with
 `Class extends value undefined` — that is the runtime being absent, not a
-syntax error. Use `node --check <file>`.
+syntax error. Use `node --check <file>` for syntax. To *test* `device.js` or
+`app.js`, put a stand-in for `homey` in `require.cache` first (`exports:
+{ Device: class {} }` or `{ App: class {} }`) and call methods on
+`Object.create(Class.prototype)` - see `loadDeviceClass()` in
+`test/websocket-idle-cycle.test.js`. That tests the real code; a copy of its
+logic in the test does not.
+
+Timer tests use `node:test`'s `mock.timers`. Its `tick(ms)` moves the clock
+to the *end* before running what fell due, so a timer armed inside a callback
+starts from the wrong time - step in small increments (`advance()` in
+`test/websocket-idle-cycle.test.js`) when timers chain.
