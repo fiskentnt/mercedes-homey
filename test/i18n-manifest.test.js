@@ -62,21 +62,28 @@ test('English, Dutch and German are exactly as they were', () => {
     return; // not a git checkout: nothing to compare against
   }
 
-  const strip = (node) => {
-    if (Array.isArray(node)) return node.map(strip);
-    if (node && typeof node === 'object') {
-      const copy = {};
-      for (const [k, v] of Object.entries(node)) if (k !== 'no') copy[k] = strip(v);
-      return copy;
+  // Every translation object, by where it sits in the file. Only the texts
+  // are held still: other fields (an icon, say) and new objects may change,
+  // but an en/nl/de text that existed before the translation may not.
+  const byPath = (node, at = '', found = {}) => {
+    if (Array.isArray(node)) node.forEach((n, i) => byPath(n, `${at}[${(n && (n.id || n.name)) || i}]`, found));
+    else if (node && typeof node === 'object') {
+      if (typeof node.en === 'string' && Object.keys(node).every((k) => LANGS.has(k))) {
+        found[at] = { en: node.en, nl: node.nl, de: node.de };
+      } else {
+        for (const [k, v] of Object.entries(node)) byPath(v, `${at}.${k}`, found);
+      }
     }
-    return node;
+    return found;
   };
 
   for (const file of manifestFiles()) {
     let old;
-    try { old = before(file); } catch (e) { continue; } // new since HEAD
-    const now = JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
-    assert.deepEqual(strip(now), strip(old), `${file}: only "no" may change`);
+    try { old = byPath(before(file)); } catch (e) { continue; } // new since then
+    const now = byPath(JSON.parse(fs.readFileSync(path.join(root, file), 'utf8')));
+    for (const [at, text] of Object.entries(old)) {
+      assert.deepEqual(now[at], text, `${file} ${at}: only "no" may change`);
+    }
   }
 });
 

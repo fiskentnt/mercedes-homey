@@ -12,7 +12,7 @@
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
-  "icon": "/assets/icons/speedometer.svg",
+  "icon": "/assets/speed.svg",
   "decimals": 1,
   "min": 0,
   "max": 250

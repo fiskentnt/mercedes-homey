@@ -23,18 +23,17 @@ test('every capability icon exists', () => {
   }
 });
 
-test('the trip figures use the agreed MDI icons, the same from start and from reset', () => {
-  const expected = {
-    distance_start: 'map-marker-distance',
+test('MDI icons only on what this fork added; the capabilities it found keep their own', () => {
+  const added = {
     distance_reset: 'map-marker-distance',
-    driven_time_start: 'clock-check-outline',
-    average_speed: 'speedometer',
     electric_consumption_start: 'chart-line',
     electric_consumption_reset: 'chart-line',
+    starter_battery_state: 'car-battery',
+    starter_battery_level: 'car-battery',
   };
   const licence = fs.readFileSync(path.join(root, 'assets', 'icons', 'LICENSE-mdi.txt'), 'utf8');
 
-  for (const [capability, icon] of Object.entries(expected)) {
+  for (const [capability, icon] of Object.entries(added)) {
     assert.equal(read(capability).icon, `/assets/icons/${icon}.svg`, capability);
     const svg = fs.readFileSync(path.join(root, 'assets', 'icons', `${icon}.svg`), 'utf8');
     assert.match(svg, /viewBox="0 0 24 24" fill="currentColor"/, `${icon}: monochrome, 24x24`);
@@ -42,4 +41,15 @@ test('the trip figures use the agreed MDI icons, the same from start and from re
     assert.ok(licence.includes(`${icon}.svg`), `${icon}: listed in LICENSE-mdi.txt`);
   }
   assert.match(licence, /Apache License\s+Version 2\.0/);
+
+  // Capabilities that were here before keep the icons they came with.
+  assert.equal(read('distance_start').icon, '/assets/icons/distance_start.svg');
+  assert.equal(read('driven_time_start').icon, '/assets/icons/driven_time.svg');
+  assert.equal(read('average_speed').icon, '/assets/speed.svg');
+
+  // And no MDI icon is shipped that nothing uses.
+  for (const unused of ['clock-check-outline', 'speedometer']) {
+    assert.ok(!fs.existsSync(path.join(root, 'assets', 'icons', `${unused}.svg`)), `${unused}.svg`);
+    assert.ok(!licence.includes(`${unused}.svg`), `${unused} not listed`);
+  }
 });

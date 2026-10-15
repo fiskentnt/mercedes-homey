@@ -2184,7 +2184,7 @@
       "getable": true,
       "setable": false,
       "uiComponent": "sensor",
-      "icon": "/assets/icons/speedometer.svg",
+      "icon": "/assets/speed.svg",
       "decimals": 1,
       "min": 0,
       "max": 250
@@ -2271,7 +2271,7 @@
       "getable": true,
       "setable": false,
       "uiComponent": "sensor",
-      "icon": "/assets/icons/map-marker-distance.svg"
+      "icon": "/assets/icons/distance_start.svg"
     },
     "door_front_left": {
       "type": "string",
@@ -2368,7 +2368,7 @@
       "getable": true,
       "setable": false,
       "uiComponent": "sensor",
-      "icon": "/assets/icons/clock-check-outline.svg"
+      "icon": "/assets/icons/driven_time.svg"
     },
     "ecoscore_accel": {
       "type": "number",

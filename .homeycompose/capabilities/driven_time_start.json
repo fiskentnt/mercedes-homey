@@ -15,5 +15,5 @@
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
-  "icon": "/assets/icons/clock-check-outline.svg"
+  "icon": "/assets/icons/driven_time.svg"
 }
