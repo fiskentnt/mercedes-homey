@@ -115,6 +115,11 @@
       "method": "GET",
       "path": "/stats",
       "public": false
+    },
+    "getFields": {
+      "method": "GET",
+      "path": "/fields",
+      "public": false
     }
   },
   "flow": {

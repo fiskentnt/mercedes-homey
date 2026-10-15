@@ -15,4 +15,13 @@ module.exports = {
   async getStats({ homey }) {
     return homey.app.getStats();
   },
+
+  /**
+   * GET /fields - what the cars send, attribute by attribute, as last
+   * received (lib/attribute-snapshot.js). A diagnostic: no VIN, no position,
+   * no request to Mercedes. Not public, like /stats.
+   */
+  async getFields({ homey }) {
+    return homey.app.getFields();
+  },
 };

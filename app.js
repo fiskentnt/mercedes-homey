@@ -51,6 +51,23 @@ class MercedesMeApp extends Homey.App {
   }
 
   /**
+   * GET /fields - every attribute the cars have sent since the app started,
+   * with value, display value, unit and status; no VIN, no position. See
+   * lib/attribute-snapshot.js.
+   */
+  async getFields() {
+    const cars = [];
+    for (const api of this.getAccountSessions().apis()) {
+      if (api.attributeSnapshot) cars.push(...api.attributeSnapshot.cars());
+    }
+    return {
+      note: 'status: 0 valid, 3 no value, 4 not received (as mbapi2020 reads it). '
+        + 'Values as last received since the app started.',
+      cars: cars.map((fields, i) => ({ car: i + 1, count: Object.keys(fields).length, fields })),
+    };
+  }
+
+  /**
    * Capture the reason the app process dies unexpectedly.
    *
    * Diagnostic reports for the login failures have shown the app re-initialising
