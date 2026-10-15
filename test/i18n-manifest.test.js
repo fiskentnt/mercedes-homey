@@ -89,7 +89,8 @@ test('English, Dutch and German are exactly as they were', () => {
 
 test('the agreed vocabulary: words ruled out do not appear in Norwegian', () => {
   // No dashes as punctuation in Norwegian either: "tilbakestilt, nyttig", "Nivå (0-4)".
-  const ruledOut = [/aktivert/i, /\binaktiv/i, /kjøretøy/i, /forkondisjonering/i, /klimatisering/i, /bagasjelokk/i, /siden tilbakestilling/i, /[–—]/];
+  // And plain quotation marks, not angle quotes: "fra start", not «fra start».
+  const ruledOut = [/aktivert/i, /\binaktiv/i, /kjøretøy/i, /forkondisjonering/i, /klimatisering/i, /bagasjelokk/i, /siden tilbakestilling/i, /[–—]/, /[«»]/];
   const offenders = [];
   for (const file of manifestFiles()) {
     const json = JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));

@@ -505,7 +505,7 @@
         },
         "hint": {
           "en": "Fires when the ignition is switched off after a drive, once the car has sent its final figures (at most 3 minutes later, with the latest figures it has). The tags are the car's own \"from start\" figures, which can cover more than one drive if the car has not reset them in between. Trips under 2 km, and consumption shown as 99.9, are skipped.",
-          "no": "Utløses når tenningen slås av etter en kjøretur, når bilen har sendt de siste verdiene (senest 3 minutter etter, med de siste verdiene den har). Taggene er bilens egne «fra start»-verdier, som kan gjelde flere turer hvis bilen ikke har nullstilt dem i mellomtiden. Turer under 2 km, og forbruk vist som 99,9, hoppes over."
+          "no": "Utløses når tenningen slås av etter en kjøretur, når bilen har sendt de siste verdiene (senest 3 minutter etter, med de siste verdiene den har). Taggene er bilens egne \"fra start\"-verdier, som kan gjelde flere turer hvis bilen ikke har nullstilt dem i mellomtiden. Turer under 2 km, og forbruk vist som 99,9, hoppes over."
         },
         "args": [
           {
