@@ -6,6 +6,7 @@ Used in this app, path data unchanged:
   clock-check-outline.svg  - driving time, from start
   speedometer.svg          - average speed, from start
   chart-line.svg           - average consumption, from start and from reset
+  car-battery.svg          - 12 V starter battery state
 
 The package's license notice, verbatim:
 
