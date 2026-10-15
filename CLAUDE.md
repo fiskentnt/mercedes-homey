@@ -91,11 +91,22 @@ The CLI pinned in `devDependencies` (3.9.x) has no `api` command; 4.x does.
 The endpoint is `"public": false` — Homey has no owner-only option for app
 endpoints, so "not public" means a token for this Homey is required. The
 response carries its own legend (`keys`). Records hold an hour and counters
-only (`t`, `h`, `c`, `i`, `k`) — a test drives the real pipeline with a VIN,
-e-mail, position and token and checks none of them gets in. Counted in
-memory, written hourly and in the app's `onUninit`; the hour in progress is
-stored as `cur` and resumed after a restart in the same hour, so an hour is
-neither lost nor counted twice. A missing hour means the app was not running.
+only (`t`, `h`, `c`, `i`, `k`, `w`) — a test drives the real pipeline with a
+VIN, e-mail, position and token and checks none of them gets in. `w` counts
+the times a car sent a newer `vtime` (its own clock at its last report, read
+as local time): a car waking and reporting, beside the app's own handshakes
+in `h`. Counted in memory, written every ten minutes and in the app's
+`onUninit`; the hour in progress is stored as `cur` and resumed after a
+restart in the same hour, so an hour is not counted twice. It was hourly
+until a night of five `homey app install`s, none an hour apart, left nothing
+stored at all: the `onUninit` write does not land when an install replaces
+the app, so the regular write is the one that counts, and ten minutes is the
+most a restart costs. A missing hour means the app was not running.
+
+`GET /fields` (same app, same access) returns the last value, display value,
+unit and status of every attribute the car has sent since the app started -
+the "FULL data keys" log line with values, for when there is no log to read.
+No VIN, no position.
 
 ## Things that look like bugs but are not
 

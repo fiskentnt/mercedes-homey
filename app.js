@@ -31,15 +31,16 @@ class MercedesMeApp extends Homey.App {
   /**
    * The hourly connection timeline, 60 days of it, behind GET /stats.
    *
-   * Counted in memory and written once an hour (and in onUninit), never per
-   * event - see lib/stats-timeline.js. Created on first use, like the account
-   * sessions, so a device initialising before onInit still finds it.
+   * Counted in memory and written every ten minutes (and in onUninit), never
+   * per event - see lib/stats-timeline.js for why not hourly. Created on first
+   * use, like the account sessions, so a device initialising before onInit
+   * still finds it.
    */
   getStatsTimeline() {
     if (!this._statsTimeline) {
       this._statsTimeline = new StatsTimeline(this.homey.settings, { log: (message) => this.log(message) });
       this._statsTimeline.load();
-      this._statsTimer = setInterval(() => this._statsTimeline.flush(), this.STATS_WRITE_INTERVAL || 3600000);
+      this._statsTimer = setInterval(() => this._statsTimeline.flush(), this.STATS_WRITE_INTERVAL || 600000);
     }
 
     return this._statsTimeline;
