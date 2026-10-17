@@ -11,3 +11,8 @@ test/
 
 # CI configuration
 .github/
+
+# Working notes (PROGRESS.md and the output it points to) - local only,
+# kept out of git by .git/info/exclude and out of the app here
+/PROGRESS.md
+/progress/
