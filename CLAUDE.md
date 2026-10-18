@@ -91,11 +91,12 @@ The CLI pinned in `devDependencies` (3.9.x) has no `api` command; 4.x does.
 The endpoint is `"public": false` — Homey has no owner-only option for app
 endpoints, so "not public" means a token for this Homey is required. The
 response carries its own legend (`keys`). Records hold an hour and counters
-only (`t`, `h`, `c`, `i`, `k`, `w`) — a test drives the real pipeline with a
+only (`t`, `h`, `c`, `i`, `k`, `w`, `l`) — a test drives the real pipeline with a
 VIN, e-mail, position and token and checks none of them gets in. `w` counts
 the times a car sent a newer `vtime` (its own clock at its last report, read
 as local time): a car waking and reporting, beside the app's own handshakes
-in `h`. Counted in memory, written every ten minutes and in the app's
+in `h`. `l` counts the logins the push connection asked for: ahead of the
+session limit (see the 18-hour fact below), after 429s, and failed. Counted in memory, written every ten minutes and in the app's
 `onUninit`; the hour in progress is stored as `cur` and resumed after a
 restart in the same hour, so an hour is not counted twice. It was hourly
 until a night of five `homey app install`s, none an hour apart, left nothing
@@ -165,6 +166,20 @@ No VIN, no position.
   logins can be, not how many an outage gets: once the window is at the cap,
   the knock the app was going to make anyway is spent on a login instead of a
   refresh.
+- **A session is refused at about 18 hours old, so it is renewed at 16.**
+  The 1.1.53 test on a parked car (15-18 Oct 2026, read from `GET /stats`)
+  met two WebSocket 429s every 18 hours, in the same clock hour each time:
+  20:00, 14:00, 08:00, 02:00, 20:00. Each episode was a refreshed token
+  refused again and then the escalation's login let through, and that login
+  started the next 18 hours. With hourly records that puts the limit within
+  about a quarter of an hour of 18 h. So `login()` stamps the token with
+  `logged_in_at`, a refresh carries the stamp over, and `connectOrThrow()`
+  logs in before the handshake once the session is 16 h old
+  (`SESSION_RENEW_AFTER`; a token without the stamp counts as due). Sixteen,
+  not seventeen, in case the limit counts handshakes: about 680 went by
+  between episodes, and the interval with a drive had fewer and still lasted
+  18 h. A failed renewal still handshakes and is retried 15 min later.
+  Whether this ends the 429s is read from `l[0]` and `h[1]` in `GET /stats`.
 - **There is no REST source for doors, windows, lock or sunroof.** Checked
   against mbapi2020's `webapi.py` (Aug 2026): the only vehicle-state REST
   endpoint anyone knows is the widget `vehicleattributes` one the app already
